@@ -1,0 +1,34 @@
+extends layout/main
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+            .steps-block
+                ul.steps-block__list
+                    li.steps-block__item
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_active
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_disabled
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_disabled
+                        span.steps-block__box
+
+            .steps-form.steps-form_step-2
+                .steps-form__text
+                    h2.steps-form__title Известна ли Вам дополнительная информация о компании?
+                    .steps-form__subtext (Адрес, телефон, web сайт, Email)
+                
+                .steps-form__buttons.steps-form__buttons_center
+                    a.steps-form__btn(href="#") да
+                        
+                    a.steps-form__btn(href="#") нет
+                    
+                .steps-form__buttons
+                    a.steps-form__prev(href="#") Назад
+                        
+                    a.steps-form__next(href="#") Далее

@@ -1,0 +1,15 @@
+.white-block {
+    margin: 0 0 30px;
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0 3px 6px #e2e3e1;
+    border-radius: 12px;
+}
+
+@media (max-width: 767px) {
+    .white-block {
+        border-radius: 0;
+        padding: 24px 0;
+        box-shadow: none;
+    }
+}

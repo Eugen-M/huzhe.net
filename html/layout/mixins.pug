@@ -1,0 +1,37 @@
+mixin input(type, text)
+    .form-block__row
+        .form-block__box
+            input.form-block__inp(type= type placeholder=" " id="")
+            label.form-block__label= text
+        .form-block__hint 
+        
+mixin input-error(type, text)
+    .form-block__row.form-block__row_error
+        .form-block__box.form-block__box_error
+            input.form-block__inp(type= type placeholder=" " id="")
+            label.form-block__label= text
+        .form-block__hint Номер телефона введен неверно.
+
+mixin feedback(color)
+    section.feedback(class=color)
+        .container
+            h2 Задать вопрос
+
+            .form-block
+                form.form-block--ins(method='POST' action='')
+                    .row
+                        .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4
+                            .form-block-row
+                                input.form-block-inp(type="text" placeholder="Ваше имя" id="name")
+                        .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4    
+                            .form-block-row.error
+                                input.form-block-inp(type="text" placeholder="Email" id="email")
+                        .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4  
+                            .form-block-row
+                                input.form-block-inp(type="text" placeholder="Тема" id="theme")
+
+                    .form-block-row.error
+                        textarea.form-block-tarea(type="text" placeholder="Напишите свой вопрос")
+
+                    .form-block-buttons
+                        button.btn-primary.c-blue(type="submit") Отправить                         

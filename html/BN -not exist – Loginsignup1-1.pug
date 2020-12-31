@@ -1,0 +1,25 @@
+extends layout/main
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+        
+    .overlay    
+    .popup
+        span.popup__btn-close
+        .popup__ins
+            .popup__title Восстановить пароль
+                    
+            form(method='POST' action='') 
+                +input-error("text", "E-mail")
+                
+                .popup__buttons
+                    button.btn-p(type="submit") Восстановить
+                        
+                .popup__text-recovery Уже являетесь пользователем Huzhe.net? 
+                    a.popup__text-recovery-link(href="") Войти
+        

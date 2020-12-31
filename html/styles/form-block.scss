@@ -166,9 +166,24 @@
             display: block;
             background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.002' height='16.002'%3E%3Cpath d='M12.981 0a.838.838 0 00-.6.247l-1.433 1.437 3.369 3.369 1.438-1.438a.841.841 0 000-1.191L13.577.247A.839.839 0 0012.981 0zm-3.3 2.948L0 12.633V16h3.369l9.685-9.685z' fill='rgba(21,44,67,.32)'/%3E%3C/svg%3E") center no-repeat;
         }
+
+        &_eye {
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            display: block;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.002' height='16.002'%3E%3Cpath d='M12.981 0a.838.838 0 00-.6.247l-1.433 1.437 3.369 3.369 1.438-1.438a.841.841 0 000-1.191L13.577.247A.839.839 0 0012.981 0zm-3.3 2.948L0 12.633V16h3.369l9.685-9.685z' fill='rgba(11,11,11,.32)'/%3E%3C/svg%3E") center no-repeat;
+        }
     }
 
     &__inp_with-icon ~ &__btn_edit {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        margin-top: -8px;
+    }
+
+    &__inp_with-icon ~ &__btn_eye {
         position: absolute;
         right: 15px;
         top: 50%;

@@ -11,6 +11,18 @@ mixin input-error(type, text)
             input.form-block__inp(type= type placeholder=" " id="")
             label.form-block__label= text
         .form-block__hint Номер телефона введен неверно.
+        
+        
+mixin social-block
+    ul.social-block
+        li.social-block__item
+            a.social-block__link.social-block__link_fb(href="#")
+        li.social-block__item
+            a.social-block__link.social-block__link_vk(href="#")
+        li.social-block__item
+            a.social-block__link.social-block__link_tw(href="#")
+        li.social-block__item
+            a.social-block__link.social-block__link_in(href="#")
 
 mixin feedback(color)
     section.feedback(class=color)

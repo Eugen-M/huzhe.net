@@ -11,8 +11,7 @@ mixin input-error(type, text)
             input.form-block__inp(type= type placeholder=" " id="")
             label.form-block__label= text
         .form-block__hint Номер телефона введен неверно.
-        
-        
+                
 mixin social-block
     ul.social-block
         li.social-block__item
@@ -23,6 +22,24 @@ mixin social-block
             a.social-block__link.social-block__link_tw(href="#")
         li.social-block__item
             a.social-block__link.social-block__link_in(href="#")
+
+mixin upload-block
+    .upload-block
+        .upload-block__col
+            .upload-block__item
+                .upload-block__photo
+                .upload-block__name Изображение.jpg
+                .upload-block__icon
+                    
+            .upload-block__item
+                .upload-block__photo(style="background: url() no-repeat; background-color: yellow;")
+                .upload-block__name Изображение.jpg
+                .upload-block__icon 
+        .upload-block__btn
+            .form-block__tooltip.form-block__tooltip_left.form-block__tooltip_right-mobile(style="display: block;")
+                .form-block__tooltip-title Документ
+
+                .form-block__tooltip-text Прикрепите фото, видео, файлы
 
 mixin feedback(color)
     section.feedback(class=color)

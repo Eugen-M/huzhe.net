@@ -94,22 +94,7 @@ block content
                                     span.form-block__t-area-num 0
                                     | /350
                         
-                        .upload-block
-                            .upload-block__col
-                                .upload-block__item
-                                    .upload-block__photo
-                                    .upload-block__name Изображение.jpg
-                                    .upload-block__icon
-                                        
-                                .upload-block__item
-                                    .upload-block__photo(style="background: url() no-repeat; background-color: yellow;")
-                                    .upload-block__name Изображение.jpg
-                                    .upload-block__icon 
-                            .upload-block__btn
-                                .form-block__tooltip.form-block__tooltip_left.form-block__tooltip_right-mobile(style="display: block;")
-                                    .form-block__tooltip-title Документ
-
-                                    .form-block__tooltip-text Прикрепите фото, видео, файлы
+                        +upload-block
                                 
                     .steps-form__section
                         h2.steps-form__title Какой результат решения проблемы Вы хотели бы получить?

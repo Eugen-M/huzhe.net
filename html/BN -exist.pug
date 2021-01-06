@@ -1,0 +1,85 @@
+extends layout/main
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+            .steps-block
+                ul.steps-block__list
+                    li.steps-block__item.steps-block__item_active
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_disabled
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_disabled
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_disabled
+                        span.steps-block__box
+                            
+            .company
+                .company__avatar
+                    img.company__img(src="content/kia.svg" alt="Kia")
+                        
+                .company__column
+                    .company__title KIA Motors Красноярск
+                        span.company__btn-edit
+                            
+                    .form-block__row
+                        .form-block__box
+                            input.form-block__inp.form-block__inp_with-icon(type="text" placeholder=" " id="")
+                            label.form-block__label KIA Motors Красноярск
+                            span.form-block__btn.form-block__btn_edit
+                        .form-block__hint 
+                        
+                    .company__data.company__data_local ул. Маерчака, 105, г. Красноярск, Красноярский край, Россия
+                    .company__data.company__data_phone
+                        a.company__data_link(href="") +7 (391) 234-63-42
+                    .company__data.company__data_site
+                        a.company__data_link(href="" target="_blank") www.kia-motors.ru
+                        
+
+            .steps-form.steps-form_step-0
+                form(method='POST' action='')
+                    .steps-form__section
+                        h2.steps-form__title С какой проблемой Вы столкнулись?
+                        
+                        .form-block__row
+                            .form-block__box
+                                input.form-block__inp(type="text" placeholder=" " id="")
+                                label.form-block__label Тема жалобы
+                                    span.form-block__sign ❋
+                            .form-block__hint 
+                        
+                        .form-block__row
+                            .form-block__box
+                                textarea.form-block__t-area(placeholder=" " id="")
+                                label.form-block__label Текст жалобы 
+                                    span.form-block__sign ❋
+                                
+                                .form-block__tooltip.form-block__tooltip_left(style="display: none;")
+                                    .form-block__tooltip-title Текст жалобы
+
+                                    ul.form-block__tooltip-list
+                                        li Опишите Вашу проблему;
+                                        li Какие действия Вы уже предприняли для решения проблемы;
+                                        li Включите как можно больше деталей;
+                                        li Будьте дружелюбны, вежливы и избегайте нецензурную лексику;
+                                        li Не угрожайте;
+                                        li Старайтесь избегать опечаток;
+                                        li Не сообщайте личную информацию;
+                                        li Текст жалобы должен содержать не менее 350 символов.
+                                
+                            .form-block__t-area-hint
+                                .form-block__t-area-text Не сообщайте в этом поле персональные данные (номера телефонов, кредитных карт и тд.)
+                                .form-block__t-area-counter 
+                                    span.form-block__t-area-num 0
+                                    | /350
+                        
+                        +upload-block
+                    
+                .steps-form__buttons
+                    a.steps-form__prev(href="#") Назад
+                        
+                    a.steps-form__next(href="#") Далее

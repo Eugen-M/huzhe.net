@@ -9,7 +9,7 @@ block content
         .white-block
         
     .overlay    
-    .popup
+    .popup.popup_register
         span.popup__btn-close
         .popup__ins
             .popup__title Регистрация
@@ -29,17 +29,18 @@ block content
                         label.form-block__label Пароль
                         span.form-block__btn.form-block__btn_eye
                     .form-block__hint 
-                    
-                .check-item
-                    label.check-item__label
-                        input.check-item__input(type="checkbox" id="ch")
-                        span.check-item__dot
-                        span.check-item__name Я ознакомлен и согласен с 
-                            a.check-item__link(href="#") с правилами сайта 
-                            | .
+                
+                .popup__checkbox    
+                    .check-item
+                        label.check-item__label
+                            input.check-item__input(type="checkbox" id="ch")
+                            span.check-item__dot
+                            span.check-item__name Я ознакомлен и согласен 
+                                a.check-item__link(href="#") с правилами сайта 
+                                | .
                     
                 .popup__buttons
-                    button.btn-p(type="submit") Зарегистрироваться
+                    button.btn-p.btn-p_submit(type="submit") Зарегистрироваться
                         
                 .popup__text-recovery Уже являетесь пользователем Huzhe.net? 
                     a.popup__text-recovery-link(href="") Войти

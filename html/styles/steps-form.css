@@ -152,6 +152,14 @@
 .steps-form_step-2 .steps-form__buttons + .steps-form__buttons {
   margin-top: 180px;
 }
+.steps-form_step-2 .steps-form__title + .form-block__row {
+  margin-top: 24px;
+}
+.steps-form_step-2 .form-block__row {
+  max-width: 576px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .steps-form_step-3 {
   padding-top: 111px;
 }

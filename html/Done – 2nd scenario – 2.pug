@@ -1,0 +1,34 @@
+extends layout/main
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+            .steps-block
+                ul.steps-block__list
+                    li.steps-block__item
+                        span.steps-block__box
+                    li.steps-block__item
+                        span.steps-block__box
+                    li.steps-block__item
+                        span.steps-block__box
+                    li.steps-block__item
+                        span.steps-block__box
+
+            .complaint-published
+                h2.complaint-published__title Ваша жалоба опубликована!
+
+                img(src="i/complaint-published-positive-vote.svg" alt="" class="img-fluid complaint-published__picture")
+
+                ul.complaint-published__list
+                    li Спасибо за проявленный интерес к нашему ресурсу.
+                    li Не забудьте подтвердить свой e-mail.
+
+                .complaint-published__buttons
+                    .complaint-published__buttons-column
+                        a.btn-p(href="#") На главную
+
+                        a.btn-p(href="#") К жалобе

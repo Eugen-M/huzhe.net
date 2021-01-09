@@ -40,27 +40,3 @@ mixin upload-block
                 .form-block__tooltip-title Документ
 
                 .form-block__tooltip-text Прикрепите фото, видео, файлы
-
-mixin feedback(color)
-    section.feedback(class=color)
-        .container
-            h2 Задать вопрос
-
-            .form-block
-                form.form-block--ins(method='POST' action='')
-                    .row
-                        .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4
-                            .form-block-row
-                                input.form-block-inp(type="text" placeholder="Ваше имя" id="name")
-                        .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4    
-                            .form-block-row.error
-                                input.form-block-inp(type="text" placeholder="Email" id="email")
-                        .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4  
-                            .form-block-row
-                                input.form-block-inp(type="text" placeholder="Тема" id="theme")
-
-                    .form-block-row.error
-                        textarea.form-block-tarea(type="text" placeholder="Напишите свой вопрос")
-
-                    .form-block-buttons
-                        button.btn-primary.c-blue(type="submit") Отправить                         

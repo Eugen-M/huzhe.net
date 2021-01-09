@@ -1,0 +1,53 @@
+extends layout/main
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+            .steps-block
+                ul.steps-block__list
+                    li.steps-block__item
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_active
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_disabled
+                        span.steps-block__box
+                    li.steps-block__item.steps-block__item_disabled
+                        span.steps-block__box
+
+            .steps-form.steps-form_step-2
+                form(method='POST' action='')
+                    .steps-form__section
+                        h2.steps-form__title Какой результат решения проблемы Вы хотели бы получить?
+                        
+                        .form-block__row
+                            .form-block__box
+                                textarea.form-block__t-area(placeholder=" " id="")
+                                label.form-block__label Желаемый результат
+                                
+                                .form-block__tooltip.form-block__tooltip_left(style="display: none;")
+                                    .form-block__tooltip-title Текст жалобы
+
+                                    ul.form-block__tooltip-list
+                                        li Опишите Вашу проблему;
+                                        li Какие действия Вы уже предприняли для решения проблемы;
+                                        li Включите как можно больше деталей;
+                                        li Будьте дружелюбны, вежливы и избегайте нецензурную лексику;
+                                        li Не угрожайте;
+                                        li Старайтесь избегать опечаток;
+                                        li Не сообщайте личную информацию;
+                                        li Текст жалобы должен содержать не менее 350 символов.
+                                
+                            .form-block__t-area-hint
+                                .form-block__t-area-text Не сообщайте в этом поле персональные данные (номера телефонов, кредитных карт и тд.)
+                                .form-block__t-area-counter 
+                                    span.form-block__t-area-num 0
+                                    | /350
+                    
+                .steps-form__buttons
+                    a.steps-form__prev(href="#") Назад
+                        
+                    a.steps-form__next(href="#") Далее

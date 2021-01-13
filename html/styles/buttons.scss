@@ -1,14 +1,6 @@
 .btn-p {
     text-decoration: none;
     border: none;
-    font-size: 21px;
-    letter-spacing: 0.17px;
-    line-height: 1.33;
-    text-align: center;
-    border-radius: 30px;
-    color: #fff;
-    padding: 15px 25px 16px;
-    background: #3566B8;
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
@@ -20,8 +12,17 @@
         background: #4171c3;
     }
 
-    &_uppercase {
+    &_send {
+        font-size: 21px;
+        letter-spacing: 0.17px;
+        line-height: 1.33;
+        text-align: center;
+        border-radius: 32px;
+        color: #fff;
+        padding: 20px 30px 21px;
+        background: #3566B8;
         text-transform: uppercase;
+        box-shadow: 0 3px 6px rgba(64, 64, 64, 0.16);
     }
 
     &_submit {
@@ -30,18 +31,49 @@
         font-size: 21px;
         font-weight: 600;
         line-height: 1.2;
-        border-radius: 15px;
+        border-radius: 32px;
+        background: #3566B8;
         padding: 16px 50px 17px;
+    }
+
+    &_primary {
+        display: block;
+        border-radius: 32px;
+        margin-bottom: 16px;
+        font-size: 19px;
+        background: #3566B8;
+        color: #fff;
+        padding: 17px 32px 18px;
+        text-shadow: 0 1px 1px rgba(64, 64, 64, 0.16);
+    }
+
+    &_form {
+        letter-spacing: 0.34px;
+        color: #FFFFFF;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 1.2;
+        border-radius: 32px;
+        background: #3566B8;
+        padding: 16px 50px 17px;
+        transition: all 0.2s ease;
     }
 }
 
 @media (min-width: 768px) {
     .btn-p {
+        &_send,
         &_submit {
             transition: all .2s ease-in-out;
 
             &:hover {
                 transform: scale(1.1);
+            }
+        }
+
+        &_form {
+            &:hover {
+                border-radius: 10px;
             }
         }
     }
@@ -52,6 +84,24 @@
         &_submit {
             padding-left: 35px;
             padding-right: 35px;
+        }
+
+        &_primary {
+            margin-bottom: 18px;
+            line-height: 1.22;
+            font-size: 18px;
+            padding-top: 17px;
+            padding-bottom: 18px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .btn-p {
+        &_send {
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 100%;
         }
     }
 }

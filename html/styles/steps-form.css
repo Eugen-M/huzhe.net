@@ -9,6 +9,7 @@
   margin: 0;
   text-align: center;
   margin-bottom: 26px;
+  text-shadow: 0 1px 1px rgba(64, 64, 64, 0.08);
 }
 .steps-form__text .steps-form__title {
   margin-bottom: 0;
@@ -19,7 +20,7 @@
 .steps-form__subtext {
   letter-spacing: 0.14px;
   color: #152C43;
-  text-shadow: 0 1px 1px #404040;
+  text-shadow: 0 1px 1px rgba(64, 64, 64, 0.08);
   font-size: 17px;
   line-height: 1.235;
   text-align: center;
@@ -72,6 +73,8 @@
   height: 80px;
   font-size: 21px;
   background: #3566b8;
+  -webkit-box-shadow: 0 3px 6px rgba(64, 64, 64, 0.16);
+          box-shadow: 0 3px 6px rgba(64, 64, 64, 0.16);
   border-radius: 50%;
   font-weight: 600;
   text-align: center;
@@ -100,25 +103,47 @@
 .steps-form__prev, .steps-form__next {
   font-size: 14px;
   letter-spacing: 0.22px;
-  padding: 10px 16px 11px;
+  padding: 11px 16px 12px;
   display: block;
   line-height: 1.35;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .steps-form__prev:hover, .steps-form__next:hover {
   text-decoration: none;
 }
 .steps-form__prev {
-  color: #3566B8;
+  color: #3566b8;
+  text-shadow: 0 1px 1px rgba(64, 64, 64, 0.08);
   padding-left: 0;
   padding-right: 0;
 }
 .steps-form__prev:hover {
-  opacity: 0.8;
+  opacity: 0.4;
 }
 .steps-form__next {
   color: #fff;
   background: #3566B8;
-  border-radius: 5px;
+  border-radius: 4px;
+  padding-right: 40px;
+  position: relative;
+}
+.steps-form__next::before {
+  content: "";
+  position: absolute;
+  position: absolute;
+  right: 18px;
+  width: 14px;
+  top: 50%;
+  height: 14px;
+  margin-top: -7px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18.001' height='13.001'%3E%3Cdefs%3E%3Cfilter id='a' x='0' y='0' width='18.001' height='13.001' filterUnits='userSpaceOnUse'%3E%3CfeOffset dy='1'/%3E%3CfeGaussianBlur stdDeviation='.5' result='b'/%3E%3CfeFlood flood-color='%23404040' flood-opacity='.161'/%3E%3CfeComposite operator='in' in2='b'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cg filter='url(%23a)'%3E%3Cpath d='M1.5 4.667h11.809l-2.983-2.992L11.5.5l5 5-5 5-1.175-1.175 2.984-2.992H1.5z' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E") right center no-repeat;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.steps-form__next:hover::before {
+  width: 17px;
+  right: 15px;
 }
 .steps-form_step-0 {
   padding-top: 32px;
@@ -220,6 +245,7 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
+    margin-bottom: 0;
   }
   .steps-form__btn {
     width: 64px;

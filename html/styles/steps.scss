@@ -83,6 +83,10 @@
     &__item_disabled &__box {
         background-color: #dfe7f4;
     }
+
+    &__item_disabled &__icon {
+        opacity: 0.8;
+    }
 }
 
 @media (max-width: 767px) {

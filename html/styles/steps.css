@@ -71,6 +71,9 @@
 .steps-block__item_disabled .steps-block__box {
   background-color: #dfe7f4;
 }
+.steps-block__item_disabled .steps-block__icon {
+  opacity: 0.8;
+}
 
 @media (max-width: 767px) {
   .steps-block {

@@ -171,7 +171,7 @@ p {
     top: 0;
     right: 0;
     bottom: 0;
-    background: #b3b3b3;
+    background: rgba(64, 64, 64, 0.4);
 }
 
 .popup {
@@ -443,7 +443,7 @@ p {
         right: 0;
         top: 0;
         bottom: 0;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.31);
     }
 
     &__ring {
@@ -501,7 +501,7 @@ p {
     &__text {
         max-width: 800px;
         margin: 0 auto;
-        box-shadow: 0 4px 8px #d8d8d8;
+        box-shadow: 0 4px 8px rgba(64, 64, 64, 0.24);
         border-radius: 4px;
         padding: 14px 24px;
         letter-spacing: 0.24px;
@@ -545,7 +545,7 @@ p {
         flex-shrink: 0;
         align-items: center;
         height: 152px;
-        box-shadow: 0 3px 6px #dedede;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     }
 
     &__column {

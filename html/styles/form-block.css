@@ -467,12 +467,16 @@
   }
   .form-block__t-area {
     padding-left: 17px;
+    height: 200px;
   }
   .form-block__t-area-text {
     font-size: 10px;
   }
   .form-block__t-area-counter {
     font-size: 9px;
+  }
+  .form-block__row_error-size .form-block__t-area {
+    height: 186px;
   }
   .form-block__inp:focus + .form-block__label, .form-block__t-area:focus + .form-block__label {
     left: 0;

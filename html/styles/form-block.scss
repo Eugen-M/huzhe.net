@@ -526,6 +526,7 @@
 
         &__t-area {
             padding-left: 17px;
+            height: 200px;
 
             &-text {
                 font-size: 10px;
@@ -534,6 +535,10 @@
             &-counter {
                 font-size: 9px;
             }
+        }
+
+        &__row_error-size &__t-area {
+            height: 186px;
         }
 
         &__inp:focus + &__label,

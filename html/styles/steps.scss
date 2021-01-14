@@ -113,6 +113,10 @@
 
         &__icon {
             background-size: 60% auto;
+
+            &_i2 {
+                background-size: auto 60%;
+            }
         }
     }
 }

@@ -30,6 +30,7 @@
     }
 
     &__btn {
+        display: none;
         width: 30px;
         height: 30px;
         position: relative;
@@ -49,7 +50,7 @@
             height: 3px;
             width: 100%;
             background: #9daac7;
-            border-radius: 3px;
+            border-radius: 6px;
             opacity: 1;
             left: 0;
             -webkit-transform: rotate(0deg);

@@ -95,4 +95,7 @@
   .steps-block__icon {
     background-size: 60% auto;
   }
+  .steps-block__icon_i2 {
+    background-size: auto 60%;
+  }
 }

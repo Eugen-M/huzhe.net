@@ -1,9 +1,9 @@
 .white-block {
   margin: 0 0 30px;
   padding: 24px;
-  background: #FFFFFF;
-  -webkit-box-shadow: 0 3px 6px #e2e3e1;
-          box-shadow: 0 3px 6px #e2e3e1;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 12px;
 }
 

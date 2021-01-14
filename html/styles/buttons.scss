@@ -1,4 +1,6 @@
 .btn-p {
+    $blue: #3566B8;
+
     text-decoration: none;
     border: none;
     display: inline-block;
@@ -20,7 +22,7 @@
         border-radius: 32px;
         color: #fff;
         padding: 20px 30px 21px;
-        background: #3566B8;
+        background: $blue;
         text-transform: uppercase;
         box-shadow: 0 3px 6px rgba(64, 64, 64, 0.16);
     }
@@ -32,7 +34,7 @@
         font-weight: 600;
         line-height: 1.2;
         border-radius: 32px;
-        background: #3566B8;
+        background: $blue;
         padding: 16px 50px 17px;
     }
 
@@ -41,7 +43,7 @@
         border-radius: 32px;
         margin-bottom: 16px;
         font-size: 19px;
-        background: #3566B8;
+        background: $blue;
         color: #fff;
         padding: 17px 32px 18px;
         text-shadow: 0 1px 1px rgba(64, 64, 64, 0.16);
@@ -54,7 +56,7 @@
         font-weight: 600;
         line-height: 1.2;
         border-radius: 32px;
-        background: #3566B8;
+        background: $blue;
         padding: 16px 50px 17px;
         transition: all 0.2s ease;
     }

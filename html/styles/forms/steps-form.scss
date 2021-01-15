@@ -149,6 +149,7 @@
         }
     }
 
+    // step-0
     &_step-0 {
         padding-top: 32px;
 
@@ -162,36 +163,18 @@
         .upload-block {
             padding-bottom: 15px;
         }
-
-        .steps-form__buttons:last-child {
-            max-width: 542px;
-            margin: 0 auto;
-        }
     }
+
+    &_step-0 &__buttons:last-child {
+        max-width: 542px;
+        margin: 0 auto;
+    }
+
+    // step-2
+
 
     &_step-2 {
         padding-top: 70px;
-
-        .steps-form__title {
-            margin-bottom: 8px;
-        }
-
-        .steps-form__text {
-            margin-bottom: 50px;
-        }
-
-        .steps-form__buttons:last-child {
-            max-width: 542px;
-            margin: 48px auto 0;
-        }
-
-        .steps-form__buttons + .steps-form__buttons {
-            margin-top: 180px;
-        }
-
-        .steps-form__title + .form-block__row {
-            margin-top: 24px;
-        }
 
         .form-block__row {
             max-width: 576px;
@@ -200,27 +183,30 @@
         }
     }
 
+    &_step-2 &__text {
+        margin-bottom: 50px;
+    }
+
+    &_step-2 &__title {
+        margin-bottom: 8px;
+    }
+
+    &_step-2 &__buttons:last-child {
+        max-width: 542px;
+        margin: 48px auto 0;
+    }
+
+    &_step-2 &__buttons + &__buttons {
+        margin-top: 180px;
+    }
+
+    &_step-2 &__title + .form-block__row {
+        margin-top: 24px;
+    }
+
+    // step-3
     &_step-3 {
         padding-top: 111px;
-
-        .steps-form__text {
-            text-align: center;
-        }
-
-        .steps-form__title {
-            margin-bottom: 5px;
-            display: inline-block;
-            vertical-align: middle;
-            padding: 0 30px;
-            position: relative;
-
-            .hint-block {
-                position: absolute;
-                right: 0;
-                top: 50%;
-                margin-top: -12px;
-            }
-        }
 
         .form-block__row {
             max-width: 364px;
@@ -233,13 +219,24 @@
             margin: 0 auto 65px;
             text-align: center;
         }
+    }
 
-        .btn-p {
-            transition: all .3s ease-in-out;
+    &_step-3 &__text {
+        text-align: center;
+    }
 
-            &:hover {
-                transform: scale(1.1);
-            }
+    &_step-3 &__title {
+        margin-bottom: 5px;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 30px;
+        position: relative;
+
+        .hint-block {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            margin-top: -12px;
         }
     }
 }
@@ -300,30 +297,30 @@
             .upload-block {
                 padding-bottom: 25px;
             }
+        }
 
-            .steps-form__buttons:last-child {
-                padding-top: 63px;
-            }
+        &_step-0 &__buttons:last-child {
+            padding-top: 63px;
         }
 
         &_step-2 {
             padding-top: 30px;
+        }
 
-            .steps-form__text {
-                margin-bottom: 58px;
-            }
+        &_step-2 &__text {
+            margin-bottom: 58px;
+        }
 
-            .steps-form__buttons + .steps-form__buttons {
-                margin-top: 160px;
-            }
+        &_step-2 &__buttons + &__buttons {
+            margin-top: 160px;
         }
 
         &_step-3 {
             padding-top: 29px;
+        }
 
-            .steps-form__buttons:last-child {
-                padding: 0;
-            }
+        &_step-3 &__buttons:last-child {
+            padding: 0;
         }
     }
 }

@@ -1,4 +1,12 @@
 extends layout/main
+
+block styles
+    link(href="styles/forms/form-block.css" rel="stylesheet")
+    link(href="styles/forms/steps-form.css" rel="stylesheet")
+    link(href="styles/forms/upload-block.css" rel="stylesheet")
+    link(href="styles/blocks/steps.css" rel="stylesheet")
+    link(href="styles/blocks/company.css" rel="stylesheet")
+        
 include layout/mixins
 
 block title
@@ -24,7 +32,7 @@ block content
                             
             .company
                 .company__avatar
-                    img.company__img(src="content/kia.svg" alt="Kia")
+                    img.company__img(src="i/content/kia.svg" alt="Kia")
                         
                 .company__column
                     .company__title KIA Motors Красноярск

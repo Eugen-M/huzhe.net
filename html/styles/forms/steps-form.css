@@ -164,11 +164,16 @@
 .steps-form_step-2 {
   padding-top: 70px;
 }
-.steps-form_step-2 .steps-form__title {
-  margin-bottom: 8px;
+.steps-form_step-2 .form-block__row {
+  max-width: 576px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .steps-form_step-2 .steps-form__text {
   margin-bottom: 50px;
+}
+.steps-form_step-2 .steps-form__title {
+  margin-bottom: 8px;
 }
 .steps-form_step-2 .steps-form__buttons:last-child {
   max-width: 542px;
@@ -180,13 +185,18 @@
 .steps-form_step-2 .steps-form__title + .form-block__row {
   margin-top: 24px;
 }
-.steps-form_step-2 .form-block__row {
-  max-width: 576px;
+.steps-form_step-3 {
+  padding-top: 111px;
+}
+.steps-form_step-3 .form-block__row {
+  max-width: 364px;
   margin-left: auto;
   margin-right: auto;
 }
-.steps-form_step-3 {
-  padding-top: 111px;
+.steps-form_step-3 .check-item {
+  max-width: 510px;
+  margin: 0 auto 65px;
+  text-align: center;
 }
 .steps-form_step-3 .steps-form__text {
   text-align: center;
@@ -203,24 +213,6 @@
   right: 0;
   top: 50%;
   margin-top: -12px;
-}
-.steps-form_step-3 .form-block__row {
-  max-width: 364px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.steps-form_step-3 .check-item {
-  max-width: 510px;
-  margin: 0 auto 65px;
-  text-align: center;
-}
-.steps-form_step-3 .btn-p {
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-.steps-form_step-3 .btn-p:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 @media (max-width: 767px) {

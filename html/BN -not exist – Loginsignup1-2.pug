@@ -1,4 +1,10 @@
 extends layout/main
+
+block styles
+    link(href="styles/forms/form-block.css" rel="stylesheet")
+    link(href="styles/blocks/social-block.css" rel="stylesheet")
+    link(href="styles/blocks/popup.css" rel="stylesheet")
+        
 include layout/mixins
 
 block title
@@ -12,7 +18,7 @@ block content
     .popup
         span.popup__btn-close
         .popup__msg
-            img.popup__msg-img(src="i/mail.svg" alt="" class="img-fluid")
+            img.popup__msg-img(src="i/mail.svg" alt="")
             .popup__msg-title Ваш запрос успешно отправлен!
             
             .popup__msg-text Информация о восстановлении пароля была отправлена на personal123@gmail.com. Пожалуйста, проверьте Ваш почтовый ящик и следуйте инструкциям в письме.

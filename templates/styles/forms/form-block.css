@@ -109,7 +109,12 @@
   left: 4px;
 }
 .form-block__inp:focus + .form-block__label .form-block__sign, .form-block__t-area:focus + .form-block__label .form-block__sign, .form-block__inp:not(:placeholder-shown) + .form-block__label .form-block__sign, .form-block__t-area:not(:placeholder-shown) + .form-block__label .form-block__sign {
+  display: none;
+}
+.form-block__box_required .form-block__inp:focus + .form-block__label .form-block__sign, .form-block__box_required .form-block__t-area:focus + .form-block__label .form-block__sign, .form-block__box_required .form-block__inp:not(:placeholder-shown) + .form-block__label .form-block__sign, .form-block__box_required .form-block__t-area:not(:placeholder-shown) + .form-block__label .form-block__sign {
   visibility: visible;
+  display: inline-block;
+  vertical-align: middle;
 }
 .form-block__inp:not(:placeholder-shown) + .form-block__label, .form-block__t-area:not(:placeholder-shown) + .form-block__label {
   top: 0;

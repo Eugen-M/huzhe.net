@@ -1,0 +1,31 @@
+extends layout/main
+
+block styles
+    link(href="BN-exist-step3.css" rel="stylesheet")
+        
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+            include modules/steps-block
+
+            .steps-form.steps-form_step-3
+                .steps-form__text
+                    h2.steps-form__title Пожалуйста, предоставьте свои данные для связи компании с Вами.
+                        include modules/hint-block
+
+                form(method='POST' action='')
+                    include modules/input
+                    include modules/input
+                    include modules/input
+                    include modules/input
+                    include modules/input
+
+                    include modules/check-item
+
+                    .steps-form__buttons.steps-form__buttons_center
+                        button.btn-p.btn-p_send(type="submit") ОПУБЛИКОВАТЬ ЖАЛОБУ

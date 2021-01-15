@@ -1,0 +1,36 @@
+extends layout/main
+
+block styles
+    link(href="Login-signup-1.css" rel="stylesheet")
+        
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .overlay    
+    .popup.popup_register
+        span.popup__btn-close
+        .popup__ins
+            .popup__title Регистрация
+            .popup__subtext с помощью аккаунта в других сервисах
+            
+            +social-block
+            
+            .popup__or
+                span.popup__or-text или
+                    
+            form(method='POST' action='') 
+                include modules/input
+                include modules/input
+                include modules/input
+                
+                include modules/check-item
+                    
+                .popup__buttons
+                    button.btn-p.btn-p_form(type="submit") Зарегистрироваться
+                        
+                .popup__text-recovery Уже являетесь пользователем Huzhe.net? 
+                    a.popup__text-recovery-link(href="") Войти
+        

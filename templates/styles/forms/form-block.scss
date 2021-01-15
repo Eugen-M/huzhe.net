@@ -116,7 +116,16 @@
     &__t-area:focus + &__label &__sign,
     &__inp:not(:placeholder-shown) + &__label &__sign,
     &__t-area:not(:placeholder-shown) + &__label &__sign {
+        display: none;
+    }
+
+    &__box_required &__inp:focus + &__label &__sign,
+    &__box_required &__t-area:focus + &__label &__sign,
+    &__box_required &__inp:not(:placeholder-shown) + &__label &__sign,
+    &__box_required &__t-area:not(:placeholder-shown) + &__label &__sign {
         visibility: visible;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     &__inp:not(:placeholder-shown) + &__label,

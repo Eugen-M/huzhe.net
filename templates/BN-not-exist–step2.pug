@@ -1,0 +1,26 @@
+extends layout/main
+
+block styles
+    link(href="BN-not-exist-step2.css" rel="stylesheet")
+        
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+            include modules/steps-block
+
+            .steps-form.steps-form_step-2
+                .steps-form__text
+                    h2.steps-form__title Известна ли Вам дополнительная информация о компании?
+                    .steps-form__subtext (Адрес, телефон, web сайт, Email)
+                
+                .steps-form__buttons.steps-form__buttons_center
+                    a.steps-form__btn(href="#") да
+                        
+                    a.steps-form__btn(href="#") нет
+                    
+                include modules/steps-form--buttons

@@ -1,7 +1,35 @@
 .form-block__row
     .form-block__box.form-block__box_required
-        input.form-block__inp(type="text" placeholder=" " id="")
-        label.form-block__label Тема жалобы 
+        input.form-block__inp.form-block__inp_with-icon(type="text" placeholder=" " id="")
+        label.form-block__label Название компании 
             span.form-block__sign ❋
-    .form-block__hint 
-                
+        span.form-block__btn.form-block__btn_edit
+            
+        .form-block__tooltip.form-block__tooltip_left.form-block__tooltip_bottom-mobile(style="display: block;")
+            .form-block__tooltip-title Название компании
+
+            .form-block__tooltip-text Введите название компании с которой у Вас возникли проблемы.
+            
+        .form-block__dropdown
+            ul.form-block__dropdown-list
+                li.form-block__dropdown-item
+                    a.form-block__dropdown-link(href="#") KIA Motors Краcноярск
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA Motors Краcноярск
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA Motors
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA 
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA Motors Краcноярск
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA Motors Краcноярск
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA Motors Краcноярск
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA Motors
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA 
+                li.form-block__dropdown-item 
+                    a.form-block__dropdown-link(href="#") KIA Motors Краcноярск
+    .form-block__hint Не вводите в этом разделе свое имя или общие фразы.

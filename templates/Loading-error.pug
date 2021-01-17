@@ -1,0 +1,16 @@
+extends layout/main
+
+block styles
+    link(href="Loading-error.css" rel="stylesheet")
+        
+include layout/mixins
+
+block title
+    | Title
+
+block content    
+    include modules/msg-box
+    
+    include modules/loading
+    
+        

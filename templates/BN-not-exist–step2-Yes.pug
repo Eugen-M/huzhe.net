@@ -1,0 +1,37 @@
+extends layout/main
+
+block styles
+    link(href="BN-not-exist-step2-Yes.css" rel="stylesheet")
+        
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+            include modules/steps-block
+
+            .steps-form.steps-form_step-2
+                .steps-form__text
+                    h2.steps-form__title Известна ли Вам дополнительная информация о компании?
+                    .steps-form__subtext (Адрес, телефон, web сайт, Email)
+                
+                .steps-form__buttons.steps-form__buttons_center.steps-form__buttons_questions
+                    a.steps-form__btn.steps-form__btn_active(href="#") да
+                        
+                    a.steps-form__btn(href="#") нет
+                    
+                form(method='POST' action='')
+                    .steps-form__form-row
+                        include modules/input
+                        include modules/input
+                    .steps-form__form-row
+                        include modules/input
+                        include modules/input
+                    .steps-form__form-row
+                        include modules/input
+                        include modules/input
+                    
+                include modules/steps-form--buttons

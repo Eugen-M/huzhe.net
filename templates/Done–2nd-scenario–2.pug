@@ -1,0 +1,16 @@
+extends layout/main
+
+block styles
+    link(href="Done-2nd-scenario-2.css" rel="stylesheet")
+        
+include layout/mixins
+
+block title
+    | Title
+
+block content
+    .container-wrap
+        .white-block
+            include modules/steps-block
+            
+            include modules/complaint-published

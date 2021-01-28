@@ -1,7 +1,7 @@
-@import url(styles/base/default.css);
-@import url(styles/base/buttons.css);
-@import url(styles/base/content.css);
-@import url(styles/forms/form-block.css);
-@import url(styles/forms/steps-form.css);
-@import url(styles/css-blocks/white-block.css);
-@import url(styles/css-blocks/steps.css);
+@import url(styles/base/nd-default.css);
+@import url(styles/base/nd-button.css);
+@import url(styles/base/nd-content.css);
+@import url(styles/forms/nd-form-block.css);
+@import url(styles/forms/nd-steps-form.css);
+@import url(styles/css-blocks/nd-white-block.css);
+@import url(styles/css-blocks/nd-steps.css);

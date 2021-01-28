@@ -9,18 +9,18 @@ block title
     | Title
 
 block content    
-    .overlay    
-    .popup.popup_recovery
-        span.popup__btn-close
-        .popup__ins
-            .popup__title Восстановить пароль
+    .nd-overlay    
+    .nd-popup.nd-popup_recovery
+        span.nd-popup__btn-close
+        .nd-popup__ins
+            .nd-popup__title Восстановить пароль
                     
             form(method='POST' action='') 
                 include modules/input
                 
-                .popup__buttons
-                    button.btn-p.btn-p_form(type="submit") Восстановить
+                .nd-popup__buttons
+                    button.nd-button.nd-button_form(type="submit") Восстановить
                         
-                .popup__text-recovery Уже являетесь пользователем Huzhe.net? 
-                    a.popup__text-recovery-link(href="") Войти
+                .nd-popup__text-recovery Уже являетесь пользователем Huzhe.net? 
+                    a.nd-popup__text-recovery-link(href="") Войти
         

@@ -1,5 +1,5 @@
-@import url(styles/base/default.css);
-@import url(styles/base/buttons.css);
-@import url(styles/forms/form-block.css);
-@import url(styles/css-blocks/social-block.css);
-@import url(styles/css-blocks/popup.css);
+@import url(styles/base/nd-default.css);
+@import url(styles/base/nd-button.css);
+@import url(styles/forms/nd-form-block.css);
+@import url(styles/css-blocks/nd-social-block.css);
+@import url(styles/css-blocks/nd-popup-overlay.css);

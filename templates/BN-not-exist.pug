@@ -9,19 +9,19 @@ block title
     | Title
 
 block content
-    .container-wrap
-        .white-block
+    .nd-container-wrap
+        .nd-white-block
             include modules/steps-block
 
-            .steps-form.steps-form_step-0
+            .nd-steps-form.nd-steps-form_step-0
                 form(method='POST' action='')
-                    .steps-form__section
-                        h2.steps-form__title На кого Вы оставляете жалобу?
+                    .nd-steps-form__section
+                        h2.nd-steps-form__title На кого Вы оставляете жалобу?
                         
                         include modules/input
                             
-                    .steps-form__section
-                        h2.steps-form__title С какой проблемой Вы столкнулись?
+                    .nd-steps-form__section
+                        h2.nd-steps-form__title С какой проблемой Вы столкнулись?
                         
                         include modules/input
                         
@@ -29,8 +29,8 @@ block content
                         
                         include modules/upload-block
                                 
-                    .steps-form__section
-                        h2.steps-form__title Какой результат решения проблемы Вы хотели бы получить?
+                    .nd-steps-form__section
+                        h2.nd-steps-form__title Какой результат решения проблемы Вы хотели бы получить?
                         
                         include modules/textarea
                     

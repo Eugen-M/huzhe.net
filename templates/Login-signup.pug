@@ -9,28 +9,28 @@ block title
     | Title
 
 block content    
-    .overlay    
-    .popup
-        span.popup__btn-close
-        .popup__ins
-            .popup__title Вход
-            .popup__subtext с помощью аккаунта в других сервисах
+    .nd-overlay    
+    .nd-popup
+        span.nd-popup__btn-close
+        .nd-popup__ins
+            .nd-popup__title Вход
+            .nd-popup__subtext с помощью аккаунта в других сервисах
             
             include modules/social-block
             
-            .popup__or
-                span.popup__or-text или
+            .nd-popup__or
+                span.nd-popup__or-text или
                     
             form(method='POST' action='') 
                 include modules/input
                 include modules/input
             
-                .popup__text-recovery Забыли пароль?  
-                    a.popup__text-recovery-link(href="") Восстановить
+                .nd-popup__text-recovery Забыли пароль?  
+                    a.nd-popup__text-recovery-link(href="") Восстановить
                     
-                .popup__buttons
-                    button.btn-p.btn-p_form(type="submit") Вход
+                .nd-popup__buttons
+                    button.nd-button.nd-button_form(type="submit") Вход
                         
-                .popup__text-recovery Ещё не являетесь пользователем Huzhe.net? 
-                    a.popup__text-recovery-link(href="") Зарегестрироваться
+                .nd-popup__text-recovery Ещё не являетесь пользователем Huzhe.net? 
+                    a.nd-popup__text-recovery-link(href="") Зарегистрироваться
         

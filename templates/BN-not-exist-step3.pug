@@ -9,26 +9,26 @@ block title
     | Title
 
 block content
-    .container-wrap
-        .white-block
-            .steps-block
-                ul.steps-block__list
-                    li.steps-block__item
-                        span.steps-block__box
-                            span.steps-block__icon.steps-block__icon_i6
-                    li.steps-block__item
-                        span.steps-block__box
-                            span.steps-block__icon.steps-block__icon_i2
-                    li.steps-block__item.steps-block__item_active
-                        span.steps-block__box
-                            span.steps-block__icon.steps-block__icon_i4
-                    li.steps-block__item.steps-block__item_disabled
-                        span.steps-block__box
-                            span.steps-block__icon.steps-block__icon_i5
+    .nd-container-wrap
+        .nd-white-block
+            .nd-steps-block
+                ul.nd-steps-block__list
+                    li.nd-steps-block__item
+                        span.nd-steps-block__box
+                            span.nd-steps-block__icon.nd-steps-block__icon_i6
+                    li.nd-steps-block__item
+                        span.nd-steps-block__box
+                            span.nd-steps-block__icon.nd-steps-block__icon_i2
+                    li.nd-steps-block__item.nd-steps-block__item_active
+                        span.nd-steps-block__box
+                            span.nd-steps-block__icon.nd-steps-block__icon_i4
+                    li.nd-steps-block__item.nd-steps-block__item_disabled
+                        span.nd-steps-block__box
+                            span.nd-steps-block__icon.nd-steps-block__icon_i5
 
-            .steps-form.steps-form_step-3
-                .steps-form__text
-                    h2.steps-form__title Пожалуйста, предоставьте свои данные для связи компании с Вами.
+            .nd-steps-form.nd-steps-form_step-3
+                .nd-steps-form__text
+                    h2.nd-steps-form__title Пожалуйста, предоставьте свои данные для связи компании с Вами.
                         include modules/hint-block
 
                 form(method='POST' action='')
@@ -40,5 +40,5 @@ block content
 
                     include modules/check-item
 
-                    .steps-form__buttons.steps-form__buttons_center
-                        button.btn-p.btn-p_send(type="submit") ОПУБЛИКОВАТЬ ЖАЛОБУ
+                    .nd-steps-form__buttons.nd-steps-form__buttons_center
+                        button.nd-button.nd-button_send(type="submit") ОПУБЛИКОВАТЬ ЖАЛОБУ

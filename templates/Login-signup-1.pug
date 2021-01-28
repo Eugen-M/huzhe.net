@@ -9,17 +9,17 @@ block title
     | Title
 
 block content
-    .overlay    
-    .popup.popup_register
-        span.popup__btn-close
-        .popup__ins
-            .popup__title Регистрация
-            .popup__subtext с помощью аккаунта в других сервисах
+    .nd-overlay    
+    .nd-popup.nd-popup_register
+        span.nd-popup__btn-close
+        .nd-popup__ins
+            .nd-popup__title Регистрация
+            .nd-popup__subtext с помощью аккаунта в других сервисах
             
             +social-block
             
-            .popup__or
-                span.popup__or-text или
+            .nd-popup__or
+                span.nd-popup__or-text или
                     
             form(method='POST' action='') 
                 include modules/input
@@ -28,9 +28,9 @@ block content
                 
                 include modules/check-item
                     
-                .popup__buttons
-                    button.btn-p.btn-p_form(type="submit") Зарегистрироваться
+                .nd-popup__buttons
+                    button.nd-button.nd-button_form(type="submit") Зарегистрироваться
                         
-                .popup__text-recovery Уже являетесь пользователем Huzhe.net? 
-                    a.popup__text-recovery-link(href="") Войти
+                .nd-popup__text-recovery Уже являетесь пользователем Huzhe.net? 
+                    a.nd-popup__text-recovery-link(href="") Войти
         

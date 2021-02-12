@@ -1,0 +1,142 @@
+.choose {
+    margin-bottom: 160px;
+
+    &__title {
+        letter-spacing: 0.64px;
+        color: rgba(21, 44, 67, 1);
+        line-height: 1.35;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+
+    &__text {
+        letter-spacing: 0.14px;
+        color: rgba(21, 44, 67, 1);
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 56px;
+    }
+
+    &__wrap {
+        display: flex;
+        align-items: stretch;
+        margin: 0 -10px;
+    }
+
+    &__column {
+        max-width: 25%;
+        padding: 0 10px;
+        max-height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+
+    &__item {
+        background: #fff;
+        box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
+        border-radius: 16px;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    &__photo {
+        height: 160px;
+        border-radius: 16px 16px 0 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    &__box {
+        padding: 10px 25px;
+    }
+
+    &__link {
+        display: block;
+        padding: 5px 0;
+        letter-spacing: 0.14px;
+        color: rgba(95, 99, 104, 1);
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 5px;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &__descr {
+        font-size: 21px;
+        font-weight: bold;
+        letter-spacing: 0.17px;
+        line-height: 1.6;
+        color: rgba(21, 44, 67, 1);
+    }
+
+    &__item_blue &__word {
+        color: rgba(53, 102, 184, 1);
+    }
+
+    &__item_turquoise &__word {
+        color: rgba(53, 184, 164, 1);
+    }
+
+    &__item_green &__word {
+        color: rgba(53, 184, 78, 1);
+    }
+
+    &__item_pink &__word {
+        color: rgba(184, 53, 174, 1);
+    }
+
+    &__word {
+
+    }
+}
+
+@media (max-width: 992px) {
+    .choose {
+        &__wrap {
+            flex-wrap: wrap;
+        }
+
+        &__column {
+            max-width: 50%;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .choose {
+        margin-bottom: 120px;
+
+        &__title {
+            font-size: 30px;
+            line-height: 1.35;
+            margin-bottom: 12px;
+        }
+
+        &__box {
+            padding: 10px 25px 20px;
+        }
+
+        &__link {
+            margin-bottom: 8px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        &__column {
+            max-width: 100%;
+        }
+    }
+}

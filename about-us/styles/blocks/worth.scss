@@ -1,0 +1,112 @@
+.worth {
+    margin-bottom: 94px;
+
+    &__title {
+        text-align: center;
+        letter-spacing: 0.64px;
+        color: rgba(21, 44, 67, 1);
+        text-transform: capitalize;
+        font-size: 40px;
+        line-height: 1.35;
+        margin: 0 0 53px;
+    }
+
+    &__section {
+        background: #fff;
+        box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
+        border-radius: 16px;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 80px 50px 1px;
+    }
+
+    &__item {
+        max-width: 50%;
+        position: relative;
+        padding: 47px 50px 0;
+        text-align: center;
+        margin-bottom: 52px;
+    }
+
+    &__number {
+        letter-spacing: 1.92px;
+        color: rgba(53, 102, 184, 1);
+        opacity: 0.08;
+        font-size: 120px;
+        line-height: 0.82;
+        position: absolute;
+        font-weight: bold;
+        left: 50px;
+        top: 0;
+    }
+
+    &__subtitle {
+        letter-spacing: 0.19px;
+        color: rgba(53, 102, 184, 1);
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.375;
+        padding: 0 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        letter-spacing: 0.14px;
+        color: rgba(21, 44, 67, 1);
+        font-size: 18px;
+        line-height: 1.45;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .worth {
+        margin-bottom: 54px;
+
+        &__title {
+            font-size: 32px;
+            line-height: 1.35;
+            margin-bottom: 30px;
+        }
+
+        &__section {
+            padding: 70px 34px 11px;
+        }
+
+        &__item {
+            padding: 0 10px;
+            margin-bottom: 42px;
+        }
+
+        &__number {
+            position: relative;
+            font-size: 64px;
+            left: 0;
+            margin-bottom: 20px;
+        }
+
+        &__subtitle {
+            font-size: 21px;
+            line-height: 1.4;
+            padding: 0;
+            margin-bottom: 27px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 1.45;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .worth {
+        &__item {
+            max-width: 100%;
+            padding: 0;
+        }
+    }
+}

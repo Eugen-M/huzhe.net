@@ -1,0 +1,19 @@
+extends layout/main
+
+block styles
+    link(href="styles/blocks/main-slide.css" rel="stylesheet")
+    link(href="styles/blocks/achievements.css" rel="stylesheet")
+    link(href="styles/blocks/worth.css" rel="stylesheet")
+    link(href="styles/blocks/partners.css" rel="stylesheet")
+    link(href="styles/blocks/choose.css" rel="stylesheet")
+
+block title
+    | Title
+
+block content
+    .main__wrap
+        include modules/main-slide
+        include modules/achievements
+        include modules/worth
+        include modules/partners
+        include modules/choose

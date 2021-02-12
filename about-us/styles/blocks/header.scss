@@ -454,12 +454,6 @@
     overflow: hidden;
 }
 
-@media (max-width: 1025px) {
-    .header-page {
-
-    }
-}
-
 @media (max-width: 1024px) {
     .header-page {
         &__btn {
@@ -550,6 +544,10 @@
             &_main {
                 display: none;
             }
+        }
+
+        &_logged &__add-complaint_main {
+            display: none !important;
         }
     }
 }

@@ -472,6 +472,9 @@
   .header-page__add-complaint_main {
     display: none;
   }
+  .header-page_logged .header-page__add-complaint_main {
+    display: none !important;
+  }
 }
 @media (max-width: 374px) {
   .header-page__logo {

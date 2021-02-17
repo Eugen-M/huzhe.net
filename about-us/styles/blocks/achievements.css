@@ -186,14 +186,18 @@
   .achievements__logo {
     -webkit-animation: slideInRight;
             animation: slideInRight;
-    -webkit-animation-duration: 5s;
-            animation-duration: 5s;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    z-index: 1;
   }
   .achievements__dot {
     -webkit-animation: fadeInTopRight;
             animation: fadeInTopRight;
-    -webkit-animation-duration: 5s;
-            animation-duration: 5s;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+  }
+  .achievements__counter {
+    overflow: hidden;
   }
 }
 @media (max-width: 768px) {
@@ -221,6 +225,7 @@
     background: none;
     height: 60px;
     width: 90px;
+    padding-left: 0;
   }
   .achievements__descr {
     font-size: 12px;

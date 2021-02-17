@@ -167,12 +167,17 @@
     .achievements {
         &__logo {
             animation: slideInRight;
-            animation-duration: 5s;
+            animation-duration: 2s;
+            z-index: 1;
         }
 
         &__dot {
             animation: fadeInTopRight;
-            animation-duration: 5s;
+            animation-duration: 2s;
+        }
+
+        &__counter {
+            overflow: hidden;
         }
     }
 }
@@ -204,6 +209,7 @@
             background: none;
             height: 60px;
             width: 90px;
+            padding-left: 0;
         }
 
         &__descr {

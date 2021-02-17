@@ -1,13 +1,17 @@
 .main-slide {
-    padding: 160px 0 166px;
     margin-bottom: 96px;
-    box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
-    border-radius: 16px;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+    overflow: hidden;
+
+    &__box {
+        padding: 160px 0 166px;
+        box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
+        border-radius: 16px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
 
     &__picture {
         width: 45%;
@@ -75,14 +79,15 @@
     .main-slide {
         overflow: hidden;
 
-        &__column {
+        &__title,
+        &__text {
             animation: fadeInLeft;
-            animation-duration: 5s;
+            animation-duration: 1.5s;
         }
 
         &__picture {
             animation: fadeInRight;
-            animation-duration: 5s;
+            animation-duration: 1.5s;
         }
 
         &__btn {
@@ -97,6 +102,8 @@
             line-height: 1.53;
             overflow: hidden;
             position: relative;
+            animation: fadeInUp;
+            animation-duration: 1.5s;
 
             &-text {
                 position: relative;
@@ -140,11 +147,13 @@
 
 @media (max-width: 768px) {
     .main-slide {
-        flex-wrap: wrap;
-        padding: 50px 20px 200px;
-        margin: 0 -15px;
-        border-radius: 0;
-        box-shadow: none;
+        &__box {
+            flex-wrap: wrap;
+            padding: 50px 20px 200px;
+            margin: 0 -15px;
+            border-radius: 0;
+            box-shadow: none;
+        }
 
         &__column {
             width: 100%;

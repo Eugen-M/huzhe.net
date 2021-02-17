@@ -1,6 +1,9 @@
 .main-slide {
-  padding: 160px 0 166px;
   margin-bottom: 96px;
+  overflow: hidden;
+}
+.main-slide__box {
+  padding: 160px 0 166px;
   -webkit-box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
           box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
   border-radius: 16px;
@@ -73,17 +76,17 @@
   .main-slide {
     overflow: hidden;
   }
-  .main-slide__column {
+  .main-slide__title, .main-slide__text {
     -webkit-animation: fadeInLeft;
             animation: fadeInLeft;
-    -webkit-animation-duration: 5s;
-            animation-duration: 5s;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
   }
   .main-slide__picture {
     -webkit-animation: fadeInRight;
             animation: fadeInRight;
-    -webkit-animation-duration: 5s;
-            animation-duration: 5s;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
   }
   .main-slide__btn {
     border: 1px solid #3566b8;
@@ -97,6 +100,10 @@
     line-height: 1.53;
     overflow: hidden;
     position: relative;
+    -webkit-animation: fadeInUp;
+            animation: fadeInUp;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
   }
   .main-slide__btn-text {
     position: relative;
@@ -135,7 +142,7 @@
   }
 }
 @media (max-width: 768px) {
-  .main-slide {
+  .main-slide__box {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding: 50px 20px 200px;

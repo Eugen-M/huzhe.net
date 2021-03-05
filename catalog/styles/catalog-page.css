@@ -1,0 +1,7 @@
+@import url(../../about-us/styles/base/default.css);
+@import url(../../about-us/styles/base/content.css);
+@import url(../../about-us/styles/base/fonts.css);
+@import url(../../about-us/styles/blocks/header.css);
+@import url(../../about-us/styles/blocks/footer.css);
+@import url(blocks/catalog.css);
+@import url(blocks/search-block.css);

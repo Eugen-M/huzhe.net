@@ -1,0 +1,19 @@
+mixin item(ic, subtitle, list, hiddenlist)
+    .catalog__box(class="catalog__box_" + ic)
+        .catalog__icon
+        a.catalog__subtitle(href="")= subtitle
+        if list
+            ul.catalog__list
+                each val in [...list]
+                    li.catalog__item
+                        a.catalog__link(href="")= val
+        if hiddenlist
+            ul.catalog__list.catalog__list_hidden
+                each val in [...hiddenlist]
+                    li.catalog__item
+                        a.catalog__link(href="")= val
+                        
+            span.catalog__more Показать все
+                    
+                    
+                    

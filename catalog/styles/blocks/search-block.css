@@ -1,0 +1,72 @@
+.search-block {
+  border-radius: 200px;
+  margin-left: auto;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.search-block_opened {
+  width: 30%;
+  background: #fff;
+  border: 1px solid #3566B8;
+}
+.search-block__wrap {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.search-block__input {
+  letter-spacing: 0.13px;
+  font-size: 16px;
+  padding: 0 10px 0 14px;
+  height: 46px;
+  width: 100%;
+  border: none;
+  background: none;
+  color: #152C43;
+}
+.search-block_opened .search-block__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.search-block ::-webkit-input-placeholder {
+  color: #B3BBC2;
+}
+.search-block ::-moz-placeholder {
+  color: #B3BBC2;
+}
+.search-block :-ms-input-placeholder {
+  color: #B3BBC2;
+}
+.search-block :-moz-placeholder {
+  color: #B3BBC2;
+}
+.search-block__btn {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M7 0a7 7 0 104.574 12.281l.426.426V14l6 6 2-2-6-6h-1.293l-.426-.426A6.985 6.985 0 007 0zm0 2a5 5 0 11-5 5 4.985 4.985 0 015-5z' fill='%23152c43'/%3E%3C/svg%3E") center no-repeat;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  display: block;
+  border: none;
+}
+.search-block__loupe {
+  background: #D5D9DC url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M7 0a7 7 0 104.574 12.281l.426.426V14l6 6 2-2-6-6h-1.293l-.426-.426A6.985 6.985 0 007 0zm0 2a5 5 0 11-5 5 4.985 4.985 0 015-5z' fill='%23152c43'/%3E%3C/svg%3E") center no-repeat;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: block;
+  border: none;
+  border-radius: 50%;
+}
+.search-block__loupe:hover {
+  background-color: #fff;
+}
+.search-block_opened .search-block__loupe {
+  display: none;
+}

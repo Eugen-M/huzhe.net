@@ -1,0 +1,243 @@
+.catalog__title {
+  letter-spacing: 0.64px;
+  color: #152C43;
+  font-size: 40px;
+  line-height: 1.35;
+  margin: 0;
+}
+.catalog__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.catalog__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -10px;
+}
+.catalog__column {
+  -ms-flex: 0 0 25%;
+  -webkit-box-flex: 0;
+          flex: 0 0 25%;
+  max-width: 25%;
+  padding: 10px;
+}
+.catalog__box {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 0px 3px #40404029;
+          box-shadow: 0px 0px 3px #40404029;
+  border-radius: 16px;
+  min-height: 325px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.catalog__icon {
+  height: 64px;
+}
+.catalog__box_shopping .catalog__icon {
+  background: url(../../i/online_shopping.svg) left center no-repeat;
+}
+.catalog__box_subway .catalog__icon {
+  background: url(../../i/subway.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_service .catalog__icon {
+  background: url(../../i/service.svg) left center no-repeat;
+}
+.catalog__box_workers .catalog__icon {
+  background: url(../../i/workers.svg) left center no-repeat;
+}
+.catalog__box_parliament .catalog__icon {
+  background: url(../../i/parliament.svg) left center no-repeat;
+}
+.catalog__box_network .catalog__icon {
+  background: url(../../i/network_cable.svg) left center no-repeat;
+}
+.catalog__box_guard .catalog__icon {
+  background: url(../../i/guard.svg) left center no-repeat;
+}
+.catalog__box_basketball .catalog__icon {
+  background: url(../../i/basketball.svg) left center no-repeat;
+}
+.catalog__box_trade .catalog__icon {
+  background: url(../../i/trade.svg) left center no-repeat;
+}
+.catalog__box_student .catalog__icon {
+  background: url(../../i/student_male.svg) left center no-repeat;
+}
+.catalog__box_eyebrow .catalog__icon {
+  background: url(../../i/eyebrow.svg) left center no-repeat;
+}
+.catalog__box_people .catalog__icon {
+  background: url(../../i/people.svg) left center no-repeat;
+}
+.catalog__box_building .catalog__icon {
+  background: url(../../i/building.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__box_ .catalog__icon {
+  background: url(../../i/.svg) left center no-repeat;
+}
+.catalog__subtitle {
+  letter-spacing: 0.17px;
+  color: #152C43;
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: block;
+}
+.catalog__subtitle:hover {
+  color: #152C43;
+}
+.catalog__link {
+  letter-spacing: 0.13px;
+  color: rgba(53, 102, 184, 0.72);
+  font-size: 16px;
+  line-height: 1.31;
+}
+.catalog__link:hover {
+  color: #3566B8;
+}
+.catalog__more {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.13px;
+  color: #526476;
+  line-height: 1.3;
+}

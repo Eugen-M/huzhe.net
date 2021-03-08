@@ -23,7 +23,7 @@
 .search-block__input {
   letter-spacing: 0.13px;
   font-size: 16px;
-  padding: 0 10px 0 14px;
+  padding: 0 10px 0 16px;
   height: 46px;
   width: 100%;
   border: none;
@@ -69,4 +69,20 @@
 }
 .search-block_opened .search-block__loupe {
   display: none;
+}
+
+@media (max-width: 1023px) {
+  .search-block {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #3566B8;
+  }
+  .search-block__loupe {
+    display: none;
+  }
+  .search-block__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }

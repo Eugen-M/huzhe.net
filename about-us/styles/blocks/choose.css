@@ -25,6 +25,7 @@
       -ms-flex-align: stretch;
           align-items: stretch;
   margin: 0 -10px;
+  position: relative;
 }
 .choose__column {
   max-width: 25%;
@@ -54,6 +55,7 @@
           flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  width: 100%;
 }
 .choose__photo {
   height: 160px;

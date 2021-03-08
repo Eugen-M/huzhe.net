@@ -19,7 +19,7 @@
     &__input {
         letter-spacing: 0.13px;
         font-size: 16px;
-        padding: 0 10px 0 14px;
+        padding: 0 10px 0 16px;
         height: 46px;
         width: 100%;
         border: none;
@@ -75,8 +75,20 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
+    .search-block {
+        width: 100%;
+        background: #fff;
+        border: 1px solid #3566B8;
 
+        &__loupe {
+            display: none;
+        }
+
+        &__wrap {
+            display: flex;
+        }
+    }
 }
 
 @media (max-width: 767px) {

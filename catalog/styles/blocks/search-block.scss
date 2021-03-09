@@ -1,20 +1,9 @@
 .search-block {
     border-radius: 200px;
     margin-left: auto;
-    transition: all 1s ease;
-
-    &_opened {
-        width: 30%;
-        background: #fff;
-        border: 1px solid #3566B8;
-    }
-
-    &__wrap {
-        display: none;
-        align-items: center;
-        justify-content: space-between;
-        transition: all 0.7s ease;
-    }
+    width: 30%;
+    background: #fff;
+    border: 1px solid #3566B8;
 
     &__input {
         letter-spacing: 0.13px;
@@ -27,8 +16,11 @@
         color: #152C43;
     }
 
-    &_opened &__wrap {
+    &__wrap {
         display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
     }
 
     ::-webkit-input-placeholder {
@@ -55,24 +47,6 @@
         display: block;
         border: none;
     }
-
-    &__loupe {
-        background: #D5D9DC url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M7 0a7 7 0 104.574 12.281l.426.426V14l6 6 2-2-6-6h-1.293l-.426-.426A6.985 6.985 0 007 0zm0 2a5 5 0 11-5 5 4.985 4.985 0 015-5z' fill='%23152c43'/%3E%3C/svg%3E") center no-repeat;
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        display: block;
-        border: none;
-        border-radius: 50%;
-
-        &:hover {
-            background-color: #fff;
-        }
-    }
-
-    &_opened &__loupe {
-        display: none;
-    }
 }
 
 @media (max-width: 1023px) {
@@ -80,14 +54,6 @@
         width: 100%;
         background: #fff;
         border: 1px solid #3566B8;
-
-        &__loupe {
-            display: none;
-        }
-
-        &__wrap {
-            display: flex;
-        }
     }
 }
 

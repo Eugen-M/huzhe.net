@@ -13,12 +13,11 @@ html(lang="ru-RU")
     != "<![endif]-->"
     script(src="../about-us/js/jquery-3.4.1.min.js")
   body
-    .container__main
-      include ../../about-us/modules/header
+    .page-container__main
+      include ../../about-us/modules/page-header
       block content
-      include ../../about-us/modules/footer
-     
-    //- script(src="../about-us/js/scripts.js")
+      include ../../about-us/modules/page-footer
+    
     script(src="js/scripts-catalog.js")
     
 

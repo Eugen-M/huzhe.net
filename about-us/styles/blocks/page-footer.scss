@@ -1,4 +1,4 @@
-.footer-page {
+.page-footer {
     position: relative;
     background: #283C4F;
     z-index: 9;
@@ -261,7 +261,7 @@
 }
 
 @media (min-width: 1025px) {
-    .footer-page {
+    .page-footer {
         &__btn {
 
             &:hover {
@@ -281,7 +281,7 @@
 }
 
 @media (max-width: 767px) {
-    .footer-page {
+    .page-footer {
         &__title {
             text-align: center;
         }
@@ -376,7 +376,7 @@
 }
 
 @media (max-width: 374px) {
-    .footer-page {
+    .page-footer {
         &__btn {
             font-size: 26px;
         }

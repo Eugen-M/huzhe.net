@@ -1,0 +1,54 @@
+extends layout/main
+
+block title
+    | Title
+
+block content
+    .page-container__ins
+        section.profile
+            .page-container__wrap
+                .profile__block
+                    .profile__header
+                        .profile__reputation
+                            .profile__reputation-subtitle Репутация
+                            .profile__reputation-quan 184
+                                span.profile__hint
+                                    span.profile__hint-text Репутация
+                        .profile__ava
+                        span.profile__btn-edit
+                            span.profile__hint
+                                span.profile__hint-text Редактировать профиль
+                    .profile__row 
+                        .profile__name Родион Раскольников
+                        span.tooltip.tooltip_s24.tooltip_warning
+                            span.tooltip__icon
+                            span.tooltip__msg Подтвердить e-mail
+                            span.tooltip__dropdown
+                                span.tooltip__title Сведения об учетной записи
+                                span.tooltip__text Подтвердите Вашу учетную запись с помощью e-mail для получения быстрых и эффективных реакций от компаний
+                                
+                                a.tooltip__btn(href="#") Подтвердить
+                    .profile__row
+                        .profile__location Россия, Красноярский край, г. Красноярск
+                    .profile__row
+                        .profile__since Регистрация: 14.07.2017
+                    .profile__info
+                        .profile__info-status Online
+                        .profile__info-date Активность: 17.02.2021
+                    .profile__tabs
+                        .profile__tabs-navi
+                            a.profile__tabs-link.profile__tabs-link_active(href="#") Жалобы
+                                span.profile__tabs-quan 35
+                            a.profile__tabs-link(href="#") Комментарии
+                                span.profile__tabs-quan 22
+                    
+                .profile__tabs-wrap
+                    .profile__tabs-content.profile__tabs-content_active
+                        include modules/comment
+                        
+                        include modules/comment
+                    .profile__tabs-content
+                        include modules/comment-less
+                    
+                        
+                

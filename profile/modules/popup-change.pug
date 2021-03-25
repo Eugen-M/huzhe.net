@@ -1,0 +1,28 @@
+.popup__overlay
+
+.popup__box
+    .popup__btn.popup__btn_close
+    .popup__btn.popup__btn_back
+        
+    .popup__title Изменить пароль
+    
+    img.popup__icon.popup__icon_lock(src="i/icon-lock.svg" alt="")
+        
+    form.popup__form(method='POST' action='')
+        .popup__row
+            label.popup__label Cтарый пароль
+            
+            input.popup__input(type="password" placeholder="")
+                
+        .popup__row
+            label.popup__label Новый пароль
+            
+            input.popup__input(type="password" placeholder="")
+                
+        .popup__row
+            label.popup__label Повторите новый пароль
+            
+            input.popup__input(type="password" placeholder="")
+
+        .popup__buttons
+            button.popup__btn.popup__btn_submit(type="submit") Сохранить

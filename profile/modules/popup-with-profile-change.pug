@@ -1,0 +1,41 @@
+.popup__overlay
+
+.popup__box.popup__box_w4
+    .popup__btn.popup__btn_close
+        
+    .popup__title Изменить профиль
+        
+    form.popup__form.popup__form_left(method='POST' action='')
+        .popup__avatar(style="background: url(i/user-photo.png) center no-repeat; background-size: cover;")
+            span.popup__btn.popup__btn_upload
+                span.popup__hint
+                    span.popup__hint-text Изменить фото
+            
+        .popup__row
+            label.popup__label Имя и фамилия
+            
+            input.popup__input(type="text" placeholder="Родион Раскольников")
+                
+        .popup__row
+            label.popup__label E-mail
+            
+            input.popup__input(type="text" placeholder="example123@gmail.com")
+                
+        .popup__row
+            label.popup__label Телефон
+            
+            input.popup__input(type="text" placeholder="8 (938) 126-00-51")
+                
+        .popup__row
+            label.popup__label Пароль
+            
+            .popup__row-wrap
+                input.popup__input(type="password" placeholder="********")
+                    
+                span.popup__btn.popup__btn_edit-pass Изменить
+            
+        .popup__buttons.popup__buttons_left
+            button.popup__btn.popup__btn_submit(type="submit") Сохранить
+            
+            a.popup__btn.popup__btn_quit(href="#") Выйти
+        

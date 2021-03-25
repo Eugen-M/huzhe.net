@@ -340,21 +340,11 @@
         line-height: 1.35;
         margin-bottom: 8px;
         overflow: hidden;
-        // height: 95px;
         -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         position: relative;
         text-overflow: ellipsis;
         display: -webkit-box;
-
-        // &::after {
-        //     content: "...";
-        //     display: inline-block;
-        //     vertical-align: middle;
-        //     position: absolute;
-        //     right: 0;
-        //     bottom: 0;
-        // }
 
         &_active {
             height: auto;

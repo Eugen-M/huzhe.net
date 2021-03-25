@@ -30,35 +30,3 @@ $( document ).ready(function() {
 	});
 
 });
-
-// function truncateText() {
-//     let textItem = document.querySelectorAll(".comment__text");
-//
-//     for (let elem of textItem) {
-//
-//
-//         let newText = "";
-//
-//         console.log(elem.innerHTML);
-//         if(elem.innerHTML.length > 100) {
-//             newText =
-//             elem.textContent.substring(0, 100) + '...';
-//
-//             elem.textContent = "";
-//
-//             elem.insertAdjacentHTML('afterbegin', newText);
-//         }
-//     }
-// }
-
-// truncateText();
-
-// function ellipsizeTextBox(id) {
-//     var el = document.getElementsByClassName(id);
-//     var wordArray = el.innerHTML.split(' ');
-//     while(el.scrollHeight > el.offsetHeight) {
-//         wordArray.pop();
-//         el.innerHTML = wordArray.join(' ') + '...';
-//      }
-// }
-// ellipsizeTextBox("comment__text");

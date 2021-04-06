@@ -35,6 +35,12 @@
         margin-bottom: 23px;
         display: inline-block;
         vertical-align: middle;
+
+        &-img {
+            width: 200px;
+            height: auto;
+            display: block;
+        }
     }
 
     &__title {
@@ -355,7 +361,14 @@
         }
 
         &__logo {
-            margin-bottom: 13px;
+            margin: 0 auto 20px;
+            width: 166px;
+            display: block;
+
+            &-img {
+                width: 100%;
+                height: auto;
+            }
         }
 
         &__links {
@@ -365,12 +378,6 @@
 
         &__navi {
             margin-bottom: 52px;
-        }
-
-        &__logo {
-            margin: 0 auto 20px;
-            width: 200px;
-            display: block;
         }
     }
 }

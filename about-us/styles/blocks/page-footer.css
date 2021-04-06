@@ -45,6 +45,11 @@
   display: inline-block;
   vertical-align: middle;
 }
+.page-footer__logo-img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
 .page-footer__title {
   font-size: 32px;
   letter-spacing: 0.77px;
@@ -326,7 +331,13 @@
             justify-content: center;
   }
   .page-footer__logo {
-    margin-bottom: 13px;
+    margin: 0 auto 20px;
+    width: 166px;
+    display: block;
+  }
+  .page-footer__logo-img {
+    width: 100%;
+    height: auto;
   }
   .page-footer__links {
     text-align: center;
@@ -334,11 +345,6 @@
   }
   .page-footer__navi {
     margin-bottom: 52px;
-  }
-  .page-footer__logo {
-    margin: 0 auto 20px;
-    width: 200px;
-    display: block;
   }
 }
 @media (max-width: 374px) {

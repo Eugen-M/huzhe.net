@@ -350,6 +350,7 @@
   display: block;
   max-width: 100%;
   height: auto;
+  width: 180px;
 }
 .page-header__add-complaint {
   display: inline-block;
@@ -478,6 +479,9 @@
   .page-header__logo {
     width: 155px;
   }
+  .page-header__logo-img {
+    width: 100%;
+  }
   .body-hidden .page-header__logo {
     margin-left: auto;
     margin-right: auto;
@@ -495,6 +499,6 @@
 @media (max-width: 374px) {
   .page-header__logo {
     margin-left: 0;
-    width: 140px;
+    width: 132px;
   }
 }

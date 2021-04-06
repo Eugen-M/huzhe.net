@@ -396,6 +396,7 @@
             display: block;
             max-width: 100%;
             height: auto;
+            width: 180px;
         }
     }
 
@@ -544,6 +545,10 @@
 
         &__logo {
             width: 155px;
+
+            &-img {
+                width: 100%;
+            }
         }
 
         .body-hidden &__logo {
@@ -571,7 +576,7 @@
     .page-header {
         &__logo {
             margin-left: 0;
-            width: 140px;
+            width: 132px;
         }
     }
 }

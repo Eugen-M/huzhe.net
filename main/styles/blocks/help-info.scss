@@ -1,0 +1,103 @@
+.help-info {
+    &__box {
+        box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
+        border-radius: 16px;
+        padding: 94px 100px 55px;
+        margin: 0 0 20px;
+        background: #DAF3FF url(../../i/hand-left.svg) left 95px no-repeat;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 370px;
+            height: 198px;
+            background: url(../../i/hand-right.svg) center no-repeat;
+        }
+    }
+
+    &__title {
+        letter-spacing: 0.64px;
+        color: rgba(21, 44, 67, 1);
+        font-size: 40px;
+        line-height: 1.35;
+        font-weight: bold;
+        margin: 0 0 27px;
+        text-align: center;
+        position: relative;
+    }
+
+    &__list {
+        position: relative;
+        text-align: center;
+        margin-bottom: 52px;
+    }
+
+    &__column {
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+
+    &__item {
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: 0.17px;
+        color: rgba(21, 44, 67, 1);
+        line-height: 1.55;
+        margin-bottom: 6px;
+
+        &::before {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: 10px;
+            height: 10px;
+            background: rgba(21, 44, 67, 1);
+            border-radius: 50%;
+            margin-right: 9px;
+            margin-top: -3px;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+    }
+
+    &__btn {
+        font-size: 21px;
+        letter-spacing: 0.17px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 600;
+        cursor: pointer;
+        display: block;
+        padding: 15px 25px 16px;
+        background: rgba(21, 44, 67, 1);
+        border-radius: 80px;
+
+        &:hover {
+            text-decoration: none;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.16);
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .help-info {
+
+    }
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 374px) {
+
+}

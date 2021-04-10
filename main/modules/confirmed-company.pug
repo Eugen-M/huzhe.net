@@ -1,0 +1,21 @@
+section.confirmed-company
+    .page-container__wrap
+        h2.confirmed-company__title Подтвержденные представители компаний
+        
+        .confirmed-company__wrap
+            mixin item(color, img, subtitle, name)
+                .confirmed-company__item(class="confirmed-company__item_color-" + color)
+                    .confirmed-company__logo(style="background-image: url(i/" + img + "); background-position: center; background-repeat: no-repeat;")
+                    .confirmed-company__subtitle= subtitle
+                    .confirmed-company__name= name
+                    
+            +item("w", "logo-1.png", "Автомобилестроительная компания", "Kia Motors")
+            +item("b", "logo-2.png", "Сеть магазинов", "Легендариум")
+            +item("b", "logo-3.png", "Интернет-магазин", "VegaGreen")
+            +item("w", "logo-4.png", "Магазин мебели", "DIVAN BOSS")
+    
+    
+    
+                    
+                    
+                    

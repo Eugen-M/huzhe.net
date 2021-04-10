@@ -1,0 +1,90 @@
+.last-complaints {
+    padding: 57px 0;
+    font-family: 'Proxima Nova';
+
+    &__title {
+        letter-spacing: 0.64px;
+        color: rgba(21, 44, 67, 1);
+        font-size: 40px;
+        line-height: 1.35;
+        font-weight: bold;
+        margin: 0 0 41px;
+        text-align: center;
+    }
+
+    &__carousel {
+        margin-bottom: 22px;
+    }
+
+    &__item {
+        padding: 12px;
+        width: 355px;
+    }
+
+    &__subtitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 21px;
+        letter-spacing: 0.38px;
+        color: rgba(21, 44, 67, 1);
+        text-shadow: 0 1px 1px rgba(64, 64, 64, 0.08);
+        line-height: 1.25;
+
+        &-item {
+            display: block;
+            padding: 0 140px;
+            position: relative;
+            transition: all 0.4s ease;
+
+            &::before,
+            &::after {
+                content: "";
+                top: 50%;
+                position: absolute;
+                border: 1px solid rgba(21, 44, 67, 1);
+                margin-top: -1px;
+                width: 120px;
+                transition: all 0.4s ease;
+            }
+
+            &::before {
+                left: 0;
+            }
+
+            &::after {
+                right: 0;
+            }
+
+            &:hover {
+                &::before,
+                &::after {
+                    width: 105px;
+                }
+
+                &::before {
+                    left: 4px;
+                }
+
+                &::after {
+                    right: -4px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .last-complaints {
+
+    }
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 374px) {
+
+}

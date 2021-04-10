@@ -40,7 +40,7 @@
   padding: 0 12px 12px;
 }
 .catalog__box {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #FFFFFF;
   -webkit-box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
           box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
   border-radius: 16px;
@@ -57,12 +57,6 @@
 }
 .catalog__box_subway .catalog__icon {
   background: url(../../i/subway.svg) left center no-repeat;
-}
-.catalog__box_ .catalog__icon {
-  background: url(../../i/.svg) left center no-repeat;
-}
-.catalog__box_ .catalog__icon {
-  background: url(../../i/.svg) left center no-repeat;
 }
 .catalog__box_service .catalog__icon {
   background: url(../../i/service.svg) left center no-repeat;

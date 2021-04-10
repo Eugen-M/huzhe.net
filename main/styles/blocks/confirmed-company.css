@@ -1,0 +1,62 @@
+.confirmed-company {
+  padding: 137px 0 41px;
+  font-family: 'Proxima Nova';
+}
+.confirmed-company__title {
+  letter-spacing: 0.64px;
+  color: #152c43;
+  font-size: 40px;
+  line-height: 1.35;
+  font-weight: bold;
+  margin: 0 0 53px;
+  text-align: center;
+  position: relative;
+}
+.confirmed-company__wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.confirmed-company__item {
+  width: 22%;
+  padding: 0 10px;
+}
+.confirmed-company__logo {
+  width: 196px;
+  height: 196px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 0 auto 26px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.confirmed-company__logo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.confirmed-company__subtitle {
+  text-align: center;
+  letter-spacing: 0.13px;
+  color: #5f6368;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-bottom: 13px;
+}
+.confirmed-company__name {
+  letter-spacing: 0.17px;
+  color: #152c43;
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.35;
+}

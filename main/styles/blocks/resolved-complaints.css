@@ -1,0 +1,34 @@
+.resolved-complaints {
+  position: relative;
+}
+.resolved-complaints__title {
+  letter-spacing: 0.64px;
+  color: #152c43;
+  font-size: 40px;
+  line-height: 1.35;
+  font-weight: bold;
+  margin: 0 0 41px;
+  text-align: center;
+}
+.resolved-complaints__item {
+  padding: 12px;
+  width: 355px;
+}
+
+@media (min-width: 1024px) {
+  .resolved-complaints {
+    overflow: hidden;
+  }
+  .resolved-complaints__title {
+    -webkit-animation: fadeInUp;
+            animation: fadeInUp;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+  }
+  .resolved-complaints__carousel {
+    -webkit-animation: fadeInUp;
+            animation: fadeInUp;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+  }
+}

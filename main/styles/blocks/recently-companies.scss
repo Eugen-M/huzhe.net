@@ -1,0 +1,133 @@
+.recently-companies {
+    padding-top: 35px;
+    margin-bottom: 96px;
+    font-family: 'Proxima Nova';
+
+    .search-block {
+        margin: 0 auto 80px;
+        width: 400px;
+    }
+
+    &__title {
+        letter-spacing: 0.64px;
+        color: rgba(21, 44, 67, 1);
+        font-size: 40px;
+        line-height: 1.35;
+        font-weight: bold;
+        margin: 0 0 53px;
+        text-align: center;
+    }
+
+    &__box {
+        padding: 56px 30px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
+        border-radius: 16px;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__logo {
+        border-radius: 16px;
+        height: 73px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 50px 64px;
+
+        &_blue {
+            background: rgba(75, 162, 208, 1);
+            padding: 20px;
+        }
+
+        &_black {
+            background: rgba(33, 25, 41, 1);
+            padding: 20px;
+        }
+
+        transition: all 0.4s ease;
+        transform: scale(1);
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__subtitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 21px;
+        letter-spacing: 0.38px;
+        color: rgba(21, 44, 67, 1);
+        text-shadow: 0 1px 1px rgba(64, 64, 64, 0.08);
+        line-height: 1.25;
+        margin-top: 34px;
+
+        &-item {
+            display: block;
+            padding: 0 140px;
+            position: relative;
+            transition: all 0.4s ease;
+
+            &::before,
+            &::after {
+                content: "";
+                top: 50%;
+                position: absolute;
+                border: 1px solid rgba(21, 44, 67, 1);
+                margin-top: -1px;
+                width: 120px;
+                transition: all 0.4s ease;
+            }
+
+            &::before {
+                left: 0;
+            }
+
+            &::after {
+                right: 0;
+            }
+
+            &:hover {
+                &::before,
+                &::after {
+                    width: 105px;
+                }
+
+                &::before {
+                    left: 4px;
+                }
+
+                &::after {
+                    right: -4px;
+                }
+            }
+        }
+    }
+
+    &__item {}
+
+}
+
+@media (max-width: 1023px) {
+    .recently-companies {
+
+    }
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 374px) {
+
+}

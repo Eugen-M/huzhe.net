@@ -1,0 +1,42 @@
+.resolved-complaints {
+    position: relative;
+
+    &__title {
+        letter-spacing: 0.64px;
+        color: rgba(21, 44, 67, 1);
+        font-size: 40px;
+        line-height: 1.35;
+        font-weight: bold;
+        margin: 0 0 41px;
+        text-align: center;
+    }
+
+    &__item {
+        padding: 12px;
+        width: 355px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .resolved-complaints {
+        overflow: hidden;
+        
+        &__title {
+            animation: fadeInUp;
+            animation-duration: 1.5s;
+        }
+
+        &__carousel {
+            animation: fadeInUp;
+            animation-duration: 1.5s;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 374px) {
+
+}

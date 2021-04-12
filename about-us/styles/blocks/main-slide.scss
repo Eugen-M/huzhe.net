@@ -84,6 +84,7 @@
         flex: 0 0 100%;
         max-width: 100%;
         margin-bottom: 78px;
+        position: relative;
     }
 
     .search-block {
@@ -247,6 +248,51 @@
             right: 0;
             bottom: 96px;
             text-align: center;
+        }
+
+        .search-block {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        &__animation-box {
+            &-img,
+            &-img-hide {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        &_start {
+            padding: 33px 0 0;
+            margin-bottom: 68px;
+        }
+
+        &_start &__title {
+            font-size: 26px;
+            line-height: 1.25;
+            letter-spacing: 0.42px;
+            margin-bottom: 15px;
+        }
+
+        &_start &__box {
+            background: #fff;
+            box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
+            border-radius: 16px;
+            margin: 0;
+            padding: 30px 12px 116px;
+        }
+
+        &_start &__text {
+            margin-bottom: 22px;
+        }
+
+        &_start &__row {
+            bottom: 32px;
+        }
+
+        &__search {
+            margin-bottom: 25px;
         }
     }
 }

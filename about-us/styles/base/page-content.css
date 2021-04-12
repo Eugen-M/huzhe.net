@@ -19,6 +19,9 @@
   .page-container__main {
     background: #fff;
   }
+  .page-container__main_bg {
+    background: #f5f5f7;
+  }
   .page-container__ins {
     padding-top: 65px;
   }

@@ -12,21 +12,25 @@ $( document ).ready(function() {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3
+                    slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    variableWidth: false
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 560,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    variableWidth: false
                 }
             }
             // You can unslick at a given breakpoint now by adding:
@@ -48,21 +52,25 @@ $( document ).ready(function() {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3
+                    slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    variableWidth: false
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 560,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    variableWidth: false
                 }
             }
             // You can unslick at a given breakpoint now by adding:

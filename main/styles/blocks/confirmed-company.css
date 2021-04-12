@@ -36,12 +36,6 @@
   margin: 0 auto 26px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-.confirmed-company__logo:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 .confirmed-company__subtitle {
   text-align: center;
@@ -59,4 +53,58 @@
   font-weight: 600;
   text-align: center;
   line-height: 1.35;
+}
+
+@media (min-width: 1024px) {
+  .confirmed-company__logo {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .confirmed-company__logo:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+@media (max-width: 992px) {
+  .confirmed-company__wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .confirmed-company__item {
+    width: 50%;
+    margin-bottom: 39px;
+  }
+}
+@media (max-width: 767px) {
+  .confirmed-company {
+    padding-top: 75px;
+    padding-bottom: 1px;
+  }
+  .confirmed-company__wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .confirmed-company__title {
+    letter-spacing: 0.51px;
+    font-size: 32px;
+    line-height: 1.25;
+  }
+  .confirmed-company__item {
+    width: 100%;
+  }
+  .confirmed-company__logo {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 8px;
+  }
+  .confirmed-company__subtitle {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 2px;
+  }
+  .confirmed-company__name {
+    letter-spacing: 0.14px;
+    font-size: 18px;
+    line-height: 1.35;
+  }
 }

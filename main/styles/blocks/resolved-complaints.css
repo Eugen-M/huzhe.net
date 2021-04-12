@@ -20,15 +20,32 @@
     overflow: hidden;
   }
   .resolved-complaints__title {
-    -webkit-animation: fadeInUp;
-            animation: fadeInUp;
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
+    -webkit-animation: fadeInLeft;
+            animation: fadeInLeft;
+    -webkit-animation-duration: 3.5s;
+            animation-duration: 3.5s;
   }
   .resolved-complaints__carousel {
-    -webkit-animation: fadeInUp;
-            animation: fadeInUp;
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
+    -webkit-animation: fadeInRight;
+            animation: fadeInRight;
+    -webkit-animation-duration: 3.5s;
+            animation-duration: 3.5s;
+  }
+}
+@media (max-width: 767px) {
+  .resolved-complaints__title {
+    letter-spacing: 0.51px;
+    line-height: 1.21;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .resolved-complaints__carousel {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 46px;
+  }
+  .resolved-complaints__item {
+    padding: 12px 15px;
+    width: auto;
   }
 }

@@ -118,6 +118,8 @@
     margin-top: -28px;
     border: none;
     z-index: 10;
+    cursor: pointer;
+
 }
 
 .slick-arrow::before {
@@ -132,17 +134,58 @@
 }
 
 .slick-next {
-    left: -15px;
-}
-
-.slick-next::before {
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMy4xMDEiIGhlaWdodD0iMTYiPjxwYXRoIGQ9Ik04LjQuMDAyYTEuMzMgMS4zMyAwIDAgMC0uOTE1LjQxNkwuOTE0IDcuMDcybC0uOTE1LjkzNi45MTUuOTM2IDYuNTczIDYuNjUzYTEuMzQgMS4zNCAwIDAgMCAyLjI1Ni0uNTY5IDEuMzQgMS4zNCAwIDAgMC0uMzQzLTEuMzAyTDUuMDUzIDkuMzM0aDE2LjdhMS4zMyAxLjMzIDAgMCAwIDEuMTUzLTEuOTk3IDEuMzMgMS4zMyAwIDAgMC0xLjE1My0uNjY1aC0xNi43bDQuMzQ2LTQuMzg4YTEuMzMgMS4zMyAwIDAgMC0xLTIuMjg3eiIgZmlsbD0iIzM1NjZiOCIvPjwvc3ZnPg==') center no-repeat;
-}
-
-.slick-prev {
     right: -15px;
 }
 
-.slick-prev::before {
+.slick-next::before {
     background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMy40MzEiIGhlaWdodD0iMTYuMDAxIj48cGF0aCBkPSJNMTQuNzM5LjAwN2MtLjUyMy4wNS0uOTY5LjQwMS0xLjE0MS44OThzLS4wMzkgMS4wNDguMzQxIDEuNDExbDQuMzQ2IDQuMzQ2SDEuNDA4YTEuMDEgMS4wMSAwIDAgMC0uMTI2IDBjLS43MzkuMDM5LTEuMzA3LjY2Ny0xLjI3MyAxLjQwNnMuNjU5IDEuMzExIDEuMzk5IDEuMjgxaDE2Ljg3OWwtNC4zNjcgNC4zNDZhMS4zNSAxLjM1IDAgMCAwIC4wMjQgMS44ODYgMS4zNSAxLjM1IDAgMCAwIDEuODg2LjAyNGw2LjYzNC02LjY1NS45NjYtLjk0NS0uOTY2LS45NDVMMTUuODMxLjQwNmExLjM0IDEuMzQgMCAwIDAtMS4wOTItLjM5OXoiIGZpbGw9IiMzNTY2YjgiLz48L3N2Zz4=') center no-repeat;
+}
+
+.slick-prev {
+    left: -15px;
+}
+
+.slick-prev::before {
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMy4xMDEiIGhlaWdodD0iMTYiPjxwYXRoIGQ9Ik04LjQuMDAyYTEuMzMgMS4zMyAwIDAgMC0uOTE1LjQxNkwuOTE0IDcuMDcybC0uOTE1LjkzNi45MTUuOTM2IDYuNTczIDYuNjUzYTEuMzQgMS4zNCAwIDAgMCAyLjI1Ni0uNTY5IDEuMzQgMS4zNCAwIDAgMC0uMzQzLTEuMzAyTDUuMDUzIDkuMzM0aDE2LjdhMS4zMyAxLjMzIDAgMCAwIDEuMTUzLTEuOTk3IDEuMzMgMS4zMyAwIDAgMC0xLjE1My0uNjY1aC0xNi43bDQuMzQ2LTQuMzg4YTEuMzMgMS4zMyAwIDAgMC0xLTIuMjg3eiIgZmlsbD0iIzM1NjZiOCIvPjwvc3ZnPg==') center no-repeat;
+}
+
+@media (min-width: 1024px) {
+    .slick-arrow {
+        transform: scale(1);
+    }
+
+    .slick-arrow:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 767px) {
+    .slick-arrow {
+        width: 48px;
+        height: 48px;
+        top: auto;
+        bottom: 0;
+    }
+
+    .slick-arrow::before {
+        background-size: 23px auto;
+    }
+
+    .slick-next {
+        right: 125px;
+    }
+
+    .slick-prev {
+        left: 125px;
+    }
+}
+
+@media (max-width: 374px) {
+    .slick-next {
+        right: 60px;
+    }
+
+    .slick-prev {
+        left: 60px;
+    }
 }

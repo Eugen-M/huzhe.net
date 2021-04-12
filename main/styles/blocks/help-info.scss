@@ -88,16 +88,69 @@
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
     .help-info {
+        &__box {
+            background-size: 170px auto;
 
+            &::before {
+                background-size: 185px auto;
+                width: 185px;
+                height: 100px;
+            }
+        }
     }
 }
 
 @media (max-width: 767px) {
+    .help-info {
+        &__box {
+            background-size: 94px auto;
+            background-position: left 80px;
+            padding: 55px 15px 33px;
 
-}
+            &::before {
+                background-size: 105px auto;
+                width: 105px;
+                height: 56px;
+                bottom: 85px;
+            }
+        }
 
-@media (max-width: 374px) {
+        &__title {
+            font-size: 26px;
+            letter-spacing: 0.42px;
+            line-height: 1.35;
+        }
 
+        &__list {
+            text-align: left;
+        }
+
+        &__item {
+            font-size: 16px;
+            letter-spacing: 0.13px;
+            line-height: 1.5;
+            padding-left: 15px;
+            position: relative;
+            margin-bottom: 4px;
+
+            &::before {
+                width: 8px;
+                height: 8px;
+                position: absolute;
+                left: 0;
+                top: 11px;
+                margin-right: 0;
+            }
+        }
+
+        &__btn {
+            font-size: 18px;
+            letter-spacing: 0.14px;
+            line-height: 1.5;
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
+    }
 }

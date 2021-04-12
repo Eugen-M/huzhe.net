@@ -23,6 +23,10 @@
     .page-container {
         &__main {
             background: #fff;
+
+            &_bg {
+                background: rgba(245, 245, 247, 1);
+            }
         }
 
         &__ins {

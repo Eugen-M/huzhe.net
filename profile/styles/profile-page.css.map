@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,mDAAwC;AACxC,wDAA6C;AAC7C,iDAAsC;AACtC,yDAA8C;AAC9C,yDAA8C;AAC9C,+BAAoB;AACpB,+BAAoB;AACpB,+BAAoB;AACpB,6BAAkB",
+"sources": ["profile-page.scss"],
+"names": [],
+"file": "profile-page.css"
+}

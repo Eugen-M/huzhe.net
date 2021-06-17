@@ -5,7 +5,7 @@
         
     .popup__title Изменить профиль
         
-    form.popup__form.popup__form_left(method='POST' action='')
+    form.popup__form(method='POST' action='')
         .popup__avatar(style="background: url(i/user-photo.png) center no-repeat; background-size: cover;")
             span.popup__btn.popup__btn_upload
                 span.popup__hint
@@ -32,10 +32,10 @@
             .popup__row-wrap
                 input.popup__input(type="password" placeholder="********")
                     
-                span.popup__btn.popup__btn_edit-pass Изменить
+                span.popup__btn.popup__btn_edit-pass
             
         .popup__buttons.popup__buttons_left
-            button.popup__btn.popup__btn_submit(type="submit") Сохранить
+            button.popup__btn.popup__btn_submit.popup__btn_width(type="submit") Сохранить
             
-            a.popup__btn.popup__btn_quit(href="#") Выйти
+            a.popup__btn.popup__btn_quit.popup__btn_width(href="#") Выйти из профиля
         

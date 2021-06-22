@@ -13,39 +13,25 @@
   text-align: center;
 }
 .most-complaints__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
   margin: 0 -15px;
 }
 .most-complaints__item {
   -ms-flex: 0 0 33.3333%;
-  -webkit-box-flex: 0;
-          flex: 0 0 33.3333%;
+  flex: 0 0 33.3333%;
   max-width: 33.3333%;
   padding: 0 15px 32px;
 }
 .most-complaints__link {
   background: white;
-  -webkit-box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
-          box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
+  box-shadow: 0 0 3px rgba(64, 64, 64, 0.16);
   border-radius: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   height: 64px;
   font-size: 21px;
   padding: 10px 55px 10px 33px;
@@ -54,7 +40,6 @@
   font-weight: 500;
   line-height: 1.35;
   position: relative;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .most-complaints__link:hover {
@@ -172,8 +157,7 @@
 @media (max-width: 992px) {
   .most-complaints__item {
     -ms-flex: 0 0 50%;
-    -webkit-box-flex: 0;
-            flex: 0 0 50%;
+    flex: 0 0 50%;
     max-width: 50%;
   }
 }
@@ -190,8 +174,7 @@
   }
   .most-complaints__item {
     -ms-flex: 0 0 100%;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
     padding-bottom: 24px;
   }

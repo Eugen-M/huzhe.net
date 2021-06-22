@@ -20,16 +20,12 @@
     overflow: hidden;
   }
   .resolved-complaints__title {
-    -webkit-animation: fadeInLeft;
-            animation: fadeInLeft;
-    -webkit-animation-duration: 3.5s;
-            animation-duration: 3.5s;
+    animation: fadeInLeft;
+    animation-duration: 3.5s;
   }
   .resolved-complaints__carousel {
-    -webkit-animation: fadeInRight;
-            animation: fadeInRight;
-    -webkit-animation-duration: 3.5s;
-            animation-duration: 3.5s;
+    animation: fadeInRight;
+    animation-duration: 3.5s;
   }
 }
 @media (max-width: 767px) {

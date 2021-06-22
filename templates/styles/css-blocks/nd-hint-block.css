@@ -21,8 +21,7 @@
   position: absolute;
   width: 295px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   border-radius: 12px;
   padding: 18px 16px 23px;
   border: 1px solid rgba(119, 119, 157, 0.3);

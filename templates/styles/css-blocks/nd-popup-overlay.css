@@ -98,26 +98,16 @@
   width: 32px;
   height: 32px;
   cursor: pointer;
-  -webkit-transition: -webkit-transform .3s ease-out;
-  transition: -webkit-transform .3s ease-out;
   transition: transform .3s ease-out;
-  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32.081' height='32.001'%3E%3Cpath d='M2.509 0L.081 2.428 13.612 15.96 0 29.598l2.4 2.4 13.64-13.611L29.652 32l2.429-2.428L18.469 15.96 32.001 2.428 29.572 0 16.04 13.531z' fill='%233566b8'/%3E%3C/svg%3E") center no-repeat;
 }
 .nd-popup__btn-close:hover {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .nd-popup__checkbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 19px;
 }
 .nd-popup__msg {

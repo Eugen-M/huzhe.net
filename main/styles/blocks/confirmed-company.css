@@ -14,15 +14,9 @@
 }
 .confirmed-company__wrap {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: center;
+  align-items: flex-start;
 }
 .confirmed-company__item {
   width: 22%;
@@ -34,7 +28,6 @@
   border-radius: 50%;
   background-color: #ffffff;
   margin: 0 auto 26px;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .confirmed-company__subtitle {
@@ -57,18 +50,15 @@
 
 @media (min-width: 1024px) {
   .confirmed-company__logo {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   .confirmed-company__logo:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 @media (max-width: 992px) {
   .confirmed-company__wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .confirmed-company__item {
     width: 50%;
@@ -81,8 +71,7 @@
     padding-bottom: 1px;
   }
   .confirmed-company__wrap {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .confirmed-company__title {
     letter-spacing: 0.51px;

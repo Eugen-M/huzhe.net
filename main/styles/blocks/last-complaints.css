@@ -19,15 +19,9 @@
   width: 355px;
 }
 .last-complaints__subtitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-weight: 600;
   font-size: 21px;
   letter-spacing: 0.38px;
@@ -39,7 +33,6 @@
   display: block;
   padding: 0 140px;
   position: relative;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .last-complaints__subtitle-item::before, .last-complaints__subtitle-item::after {
@@ -49,7 +42,6 @@
   border: 1px solid #152c43;
   margin-top: -1px;
   width: 120px;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .last-complaints__subtitle-item::before {

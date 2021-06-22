@@ -1,28 +1,20 @@
 .header-page {
   position: relative;
   background: #FFFFFF;
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   margin-bottom: 40px;
   z-index: 10;
 }
 .header-page__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   padding: 24px 23px;
   position: relative;
 }
 .header-page__navi {
   background: #fdce0c;
-  -webkit-box-shadow: 4px 6px 2px rgba(64, 64, 64, 0.16);
-          box-shadow: 4px 6px 2px rgba(64, 64, 64, 0.16);
+  box-shadow: 4px 6px 2px rgba(64, 64, 64, 0.16);
   position: absolute;
   left: 0;
   right: 0;
@@ -40,8 +32,12 @@
   height: 30px;
   position: relative;
   -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
   transform: rotate(0deg);
   -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
@@ -55,8 +51,12 @@
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
   transform: rotate(0deg);
   -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
 .header-page__btn-line:nth-child(1) {
@@ -75,10 +75,14 @@
 }
 .header-page__btn_opened .header-page__btn-line:nth-child(2) {
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .header-page__btn_opened .header-page__btn-line:nth-child(3) {
   -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 .header-page__btn_opened .header-page__btn-line:nth-child(4) {
@@ -89,16 +93,14 @@
 
 .logo {
   margin-right: auto;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   z-index: 1;
 }
 
 @media (max-width: 767px) {
   .header-page {
     margin-bottom: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .header-page__wrap {
     padding-top: 28px;

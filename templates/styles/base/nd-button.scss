@@ -19,7 +19,7 @@
         letter-spacing: 0.17px;
         line-height: 1.33;
         text-align: center;
-        border-radius: 32px;
+        border-radius: 6px;
         color: #fff;
         padding: 20px 30px 21px;
         background: $blue;
@@ -33,14 +33,14 @@
         font-size: 21px;
         font-weight: 600;
         line-height: 1.2;
-        border-radius: 32px;
+        border-radius: 6px;
         background: $blue;
         padding: 16px 50px 17px;
     }
 
     &_primary {
         display: block;
-        border-radius: 32px;
+        border-radius: 6px;
         margin-bottom: 16px;
         font-size: 19px;
         background: $blue;
@@ -55,7 +55,7 @@
         font-size: 21px;
         font-weight: 600;
         line-height: 1.2;
-        border-radius: 32px;
+        border-radius: 6px;
         background: $blue;
         padding: 16px 50px 17px;
         transition: all 0.2s ease;

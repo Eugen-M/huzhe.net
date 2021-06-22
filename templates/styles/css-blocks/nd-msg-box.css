@@ -9,8 +9,7 @@
 .nd-msg-box__text {
   max-width: 800px;
   margin: 0 auto;
-  -webkit-box-shadow: 0 4px 8px rgba(64, 64, 64, 0.24);
-          box-shadow: 0 4px 8px rgba(64, 64, 64, 0.24);
+  box-shadow: 0 4px 8px rgba(64, 64, 64, 0.24);
   border-radius: 4px;
   padding: 14px 24px;
   letter-spacing: 0.24px;
